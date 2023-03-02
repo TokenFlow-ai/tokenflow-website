@@ -1,0 +1,67 @@
+@import "../../variables.scss";
+
+.not-found {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 170px 0 150px;
+
+  .img-404 {
+    width: 500px;
+    height: 250px;
+  }
+
+  @media screen and (max-width: 576px) {
+    width: 275px;
+    height: 125px;
+  }
+}
+
+.not-found {
+  .content-404 {
+    margin-top: 40px;
+
+    .title-404 {
+      font-size: 2.75em;
+    }
+
+    .desc-404 {
+      text-align: center;
+    }
+
+    .btn-404 {
+      color: #fff !important;
+      margin-top: 10px;
+    }
+  }
+}
+
+.x-large {
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.img-not-found {
+  @media screen and (max-width: 900px) {
+    position: relative;
+    width: 80vw;
+  }
+}
+
+.not-found-title {
+  @media screen and (max-width: 900px) {
+    font-size: 2.2em;
+  }
+}
+
+.come-back-later {
+  font-size: 1.25em;
+}
+
+.spinner {
+  width: 50px;
+  margin: auto;
+  display: block;
+}

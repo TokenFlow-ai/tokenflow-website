@@ -2,11 +2,13 @@
 
 **Name:** TokenFlow
 
-**Slogan:** Tokenizing the world, one contract at a time.
+**Slogan:** If you can imagine it, we can build it!
 
-**Alternative Slogan:** Smart contracts for a smarter world.
+**Alternative Slogan #1:** Tokenizing the world, one contract at a time.
 
-**Short Description:** TokenFlow.ai is a smart contract development agency specializing in the development of token contracts for various use cases.
+**Alternative Slogan #2:** Smart contracts for a smarter world.
+
+**Short Description:** TokenFlow is a smart contract development agency specializing in the development of token contracts for various use cases.
 
 **Website URL:** **[https://tokenflow.ai](https://tokenflow.ai)**
 

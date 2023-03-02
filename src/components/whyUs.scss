@@ -1,0 +1,125 @@
+@import "../variables.scss";
+
+.key-features-container {
+  margin: 60px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  @media screen and (max-width: 576px) {
+    margin: 20px 0 0;
+  }
+}
+
+.key-features-container .key-feats-title {
+  font-size: 2.5em;
+  font-weight: bold;
+  width: 95%;
+}
+
+.expanded-grid-container-6 {
+  margin-bottom: 0;
+}
+
+.key-features-container .key-feats-subtitle {
+  width: 90%;
+}
+
+@media screen and (max-width: 576px) {
+  .key-features-container {
+    margin-bottom: 120px;
+  }
+}
+
+.key-features-why-us {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+}
+
+@media screen and (max-width: 992px) {
+  .key-features-why-us {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .key-features-why-us .last-feat {
+    margin-top: 27px !important;
+  }
+
+  .expanded-grid-container-6 {
+    margin-bottom: 16px !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .key-features-why-us {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .expanded-grid-container-6 {
+    margin-bottom: 20px !important;
+  }
+}
+.key-features-why-us .key-feature {
+  width: 90%;
+  margin: auto;
+  padding: 0 20px;
+}
+
+@media screen and (max-width: 992px) {
+  .key-features-why-us .key-feature {
+    width: 80%;
+  }
+}
+
+.key-features-why-us .key-feature .key-feat-icon {
+  text-align: center;
+  font-size: 32px;
+  margin: 0;
+  padding: 0;
+}
+
+.key-features-why-us .key-feature .key-feat-title {
+  text-align: center;
+  margin-bottom: 22px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.key-features-why-us .key-feature .key-feat-desc {
+  text-align: left;
+  font-size: 0.95em;
+}
+
+.desc-link {
+  color: #0066ff !important;
+}
+
+.desc-link:hover {
+  text-decoration: underline !important;
+}
+
+@media screen and (max-width: 576px) {
+  .why-us-title {
+    margin-top: 70px !important;
+  }
+}
+
+@media screen and (min-width: 545px) and (max-width: 560px) {
+  .save-time-feature {
+    margin-bottom: 100px !important;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .expanded-grid-container-6 {
+    margin-bottom: 0px !important;
+  }
+}

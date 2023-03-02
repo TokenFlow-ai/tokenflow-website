@@ -1,0 +1,43 @@
+@import "../variables.scss";
+
+.faq-container {
+  margin-top: 40px;
+
+  @media screen and (max-width: 675px) {
+    width: 80%;
+  }
+
+  .faq-title-main {
+    border-bottom: 1px solid #eaeaea !important;
+    font-weight: bold;
+    margin-top: 0px;
+    padding-bottom: 60px;
+    padding-top: 50px;
+    font-size: 2.75em;
+
+    @media screen and (max-width: 992px) {
+      font-size: 2em;
+    }
+  }
+}
+
+.faq-link {
+  color: #06f;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.payment-address {
+  font-weight: bold;
+  color: #06f;
+  cursor: pointer;
+
+  @media screen and (max-width: 992px) {
+    font-size: 0.9em;
+  }
+
+  @media screen and (max-width: 450px) {
+    font-size: 0.7em;
+  }
+}

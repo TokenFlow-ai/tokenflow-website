@@ -1,0 +1,55 @@
+@import "../variables.scss";
+
+.chains-heading {
+  color: #333333;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 89px;
+  font-size: 2.75em;
+
+  @media screen and (max-width: 992px) {
+    font-size: 2em;
+    margin-top: 0px;
+    text-align: center;
+  }
+}
+
+.chains-overview {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+  align-items: stretch;
+  margin-top: 27.5px;
+  margin-bottom: 45px;
+}
+
+.chains-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 70px;
+
+  @media screen and (max-width: 1000px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media screen and (max-width: 800px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.chains {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+  margin-bottom: 88px;
+}
+
+.chains-heading {
+  margin-bottom: 70px;
+
+  @media screen and (max-width: 800px) {
+    margin-top: 93px !important;
+  }
+}

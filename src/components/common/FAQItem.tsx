@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./common.scss";
+import "./faqItem.scss";
 
 type FAQItemProps = {
   question: string;
@@ -16,9 +16,7 @@ export const FAQItem: React.FC<FAQItemProps> = ({
 }): JSX.Element => {
   const [toggleFAQ, setToggleFAQ] = useState<boolean>(false);
 
-  const toggleFAQHandler = (): void => {
-    setToggleFAQ(!toggleFAQ);
-  };
+  const toggleFAQHandler = (): void => setToggleFAQ(!toggleFAQ);
 
   return (
     <div
@@ -26,9 +24,9 @@ export const FAQItem: React.FC<FAQItemProps> = ({
         ...style,
       }}
     >
-      <div className="faq-item" onClick={toggleFAQHandler}>
-        <div className="faq-item__question">
-          <h3>{question}</h3>
+      <div className="faq-item">
+        <div className="faq-item__question" onClick={toggleFAQHandler}>
+          <h3 className="faq-item__question__text">{question}</h3>
           <div className="faq-item__question__icon">
             {toggleFAQ ? (
               <i className="fas fa-minus"></i>

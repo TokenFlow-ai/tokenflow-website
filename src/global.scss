@@ -1,0 +1,152 @@
+@import "./variables.scss";
+
+* {
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  min-height: 100%;
+  font-family: Helvetica, Arial, sans-serif !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+textarea {
+  resize: none;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.bold-on-hover {
+  &:hover {
+    font-weight: bold;
+  }
+}
+
+.italic {
+  font-style: italic;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.underline-on-hover {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.page-bg-color {
+  background-color: #fafbfd;
+}
+
+.shadow-btn {
+  background-color: #0066ff !important;
+  font-weight: bold;
+  color: #fff !important;
+  box-shadow: #3d7dd6 0px 3px 12px;
+  text-decoration: none;
+  border-radius: 5px !important;
+
+  &:hover {
+    background-color: #2760c2 !important;
+    transition: 150ms ease-in;
+  }
+}
+
+.regular-btn {
+  background-color: #0066ff;
+  font-weight: bold;
+  color: #fff !important;
+  text-decoration: none;
+  border-radius: 5px !important;
+
+  &:hover {
+    background-color: #2760c2;
+    transition: 150ms ease-in;
+  }
+}
+
+.outline-btn {
+  background-color: #fff;
+  font-weight: bold;
+  color: #0066ff !important;
+  text-decoration: none;
+  border: 1px solid #0066ff;
+  border-radius: 5px !important;
+
+  &:hover {
+    background-color: #0066ff;
+    color: #fff !important;
+    transition: 200ms ease-in;
+  }
+}
+
+.btn-link {
+  color: #fff !important;
+  text-decoration: none !important;
+  font-weight: bold;
+}
+
+.btn-outline-link {
+  font-weight: bold;
+  text-decoration: none !important;
+  border-radius: 5px !important;
+
+  &:hover {
+    background-color: #0066ff;
+    color: #fff !important;
+    transition: 200ms ease-in;
+  }
+}
+
+.light-btn {
+  background-color: #fff !important;
+  color: #0066ff !important;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+.disabled-btn {
+  cursor: no-drop !important;
+}
+
+.light-link {
+  color: #fff !important;
+  text-decoration: underline;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
