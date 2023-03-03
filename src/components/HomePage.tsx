@@ -2,9 +2,9 @@ import React from "react";
 import { Hero } from "./Hero";
 import { OurClients } from "./OurClients";
 import { WhyUs } from "./WhyUs";
-import { Pricing } from "./Pricing";
+import { OurServices } from "./OurServices";
 import { Testimonials } from "./Testimonials";
-import { TeamMembers } from "./TeamMembers";
+import { TheTeam } from "./TheTeam";
 import { FAQs } from "./FAQs";
 import { Chains } from "./Chains";
 
@@ -16,11 +16,11 @@ export const HomePage: React.FC<HomePageProps> = (): JSX.Element => {
   return (
     <React.Fragment>
       <Hero />
-      <OurClients />
       <WhyUs />
-      <Pricing />
+      <OurServices />
+      <OurClients />
       <Testimonials />
-      <TeamMembers />
+      <TheTeam />
       <FAQs />
       <Chains />
     </React.Fragment>

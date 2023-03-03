@@ -1,5 +1,7 @@
 import { useState } from "react";
 import "./faqItem.scss";
+import PlusIcon from "@material-ui/icons/Add";
+import MinusIcon from "@material-ui/icons/Remove";
 
 type FAQItemProps = {
   question: string;
@@ -29,9 +31,9 @@ export const FAQItem: React.FC<FAQItemProps> = ({
           <h3 className="faq-item__question__text">{question}</h3>
           <div className="faq-item__question__icon">
             {toggleFAQ ? (
-              <i className="fas fa-minus"></i>
+              <MinusIcon className="toggle-faq-icon" />
             ) : (
-              <i className="fas fa-plus"></i>
+              <PlusIcon className="toggle-faq-icon" />
             )}
           </div>
         </div>

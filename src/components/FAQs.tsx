@@ -144,7 +144,6 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
             </span>{" "}
             {copied ? (
               <span
-                className="pricing-tick"
                 style={{
                   color: "#28a745",
                   marginLeft: "10px",

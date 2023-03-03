@@ -17,7 +17,7 @@ type HeaderProps = {
 };
 
 export const Header: React.FC<HeaderProps> = (): JSX.Element => {
-  const mobileHeader = useMediaQuery({ query: "(max-width: 1150px)" });
+  const isMobileHeader = useMediaQuery({ query: "(max-width: 1150px)" });
 
   const useStyles = makeStyles({
     list: {
@@ -51,16 +51,12 @@ export const Header: React.FC<HeaderProps> = (): JSX.Element => {
 
     const list = (anchor: any) => (
       <div
-        className={clsx(classes.list, {
+        className={`${clsx(classes.list, {
           [classes.fullList]: anchor === "top" || anchor === "bottom",
-        })}
+        })} mobile-menu-container`}
         role="presentation"
         onClick={toggleDrawer(anchor, false)}
         onKeyDown={toggleDrawer(anchor, false)}
-        style={{
-          paddingBottom: mobileHeader ? "100vw" : "",
-          backgroundColor: "#1a1f24",
-        }}
       >
         <List className="mobile-menu">
           <a href="/#why_us" className="nav-link">
@@ -93,7 +89,7 @@ export const Header: React.FC<HeaderProps> = (): JSX.Element => {
               <TwitterIcon style={{ color: "#04ABED", fontSize: "2em" }} />
             </a>
             <a
-              href="https://t.me/tokenflow_ai"
+              href="https://t.me/TokenFlow_ai"
               rel="noopener noreferrer"
               target="_blank"
               className="nav-link"
@@ -164,8 +160,8 @@ export const Header: React.FC<HeaderProps> = (): JSX.Element => {
   };
 
   return (
-    <nav className="navbar">
-      {!mobileHeader ? (
+    <div className="navbar">
+      {!isMobileHeader ? (
         <React.Fragment>
           <div className="logo">
             <a href="/#tokenflow">
@@ -208,7 +204,7 @@ export const Header: React.FC<HeaderProps> = (): JSX.Element => {
               <TwitterIcon style={{ color: "#04ABED", fontSize: "2em" }} />
             </a>
             <a
-              href="https://t.me/tokenflow_ai"
+              href="https://t.me/TokenFlow_ai"
               rel="noopener noreferrer"
               target="_blank"
               className="nav-link"
@@ -256,6 +252,6 @@ export const Header: React.FC<HeaderProps> = (): JSX.Element => {
           </div>
         </React.Fragment>
       )}
-    </nav>
+    </div>
   );
 };

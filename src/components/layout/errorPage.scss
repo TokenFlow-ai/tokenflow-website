@@ -1,67 +1,64 @@
 @import "../../variables.scss";
 
-.not-found {
+.not-found-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 170px 0 150px;
+  padding-top: 98px;
 
-  .img-404 {
-    width: 500px;
-    height: 250px;
+  @media screen and (max-width: 992px) {
+    width: 80%;
+    margin: 0 auto;
   }
 
-  @media screen and (max-width: 576px) {
-    width: 275px;
-    height: 125px;
-  }
-}
+  .not-found-title {
+    font-size: 2.75em;
+    margin-bottom: 40px;
 
-.not-found {
-  .content-404 {
-    margin-top: 40px;
-
-    .title-404 {
-      font-size: 2.75em;
+    @media screen and (max-width: 992px) {
+      font-size: 2.2em;
     }
 
-    .desc-404 {
-      text-align: center;
-    }
-
-    .btn-404 {
-      color: #fff !important;
-      margin-top: 10px;
+    .warning-icon {
+      color: $red;
     }
   }
-}
 
-.x-large {
-  font-size: 4rem;
-  line-height: 1.2;
-  margin-bottom: 1rem;
-}
+  .come-back-later {
+    font-size: 1.25em;
+    margin-top: 0px;
 
-.img-not-found {
-  @media screen and (max-width: 900px) {
+    @media screen and (max-width: 992px) {
+      font-size: 1.1em;
+    }
+  }
+
+  .img-not-found {
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    width: 550px;
+    height: 550px;
     position: relative;
-    width: 80vw;
+    bottom: 90px;
+
+    @media screen and (max-width: 992px) {
+      width: 400px;
+      height: 400px;
+      bottom: 50px;
+    }
+
+    @media screen and (max-width: 768px) {
+      width: 300px;
+      height: 300px;
+      bottom: 26px;
+    }
+
+    @media screen and (max-width: 350px) {
+      width: 240px;
+      height: 240px;
+      bottom: 11px;
+    }
   }
-}
-
-.not-found-title {
-  @media screen and (max-width: 900px) {
-    font-size: 2.2em;
-  }
-}
-
-.come-back-later {
-  font-size: 1.25em;
-}
-
-.spinner {
-  width: 50px;
-  margin: auto;
-  display: block;
 }

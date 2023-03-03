@@ -1,11 +1,11 @@
 import React from "react";
-import "./pricing.scss";
+import "./ourServices.scss";
 
-export type PricingProps = {
+export type OurServicesProps = {
   children?: React.ReactNode;
 };
 
-export const Pricing: React.FC<PricingProps> = (): JSX.Element => {
+export const OurServices: React.FC<OurServicesProps> = (): JSX.Element => {
   return (
     <div id="our_services">
       <div className="pricing-card-main-container">
@@ -46,7 +46,7 @@ export const Pricing: React.FC<PricingProps> = (): JSX.Element => {
                 support
               </p>
               <p className="plan-feature">
-                <span className="pricing-tick">✔</span> Weekly update on the
+                <span className="pricing-tick">✔</span> Weekly updates on the
                 project progress
               </p>
             </div>
@@ -77,7 +77,7 @@ export const Pricing: React.FC<PricingProps> = (): JSX.Element => {
               </p>
               <p className="plan-feature">
                 <span className="pricing-tick pricing-tick">✔</span> Supported
-                token standards: ERC721, ERC1155 & more
+                token standards: ERC721, ERC721A, ERC1155 & more
               </p>
               <p className="plan-feature">
                 <span className="pricing-tick pricing-tick">✔</span> 100% test
@@ -97,7 +97,7 @@ export const Pricing: React.FC<PricingProps> = (): JSX.Element => {
               </p>
               <p className="plan-feature">
                 <span className="pricing-tick pricing-tick">✔</span> Weekly
-                update on the project progress
+                updates on the project progress
               </p>
             </div>
 
@@ -155,7 +155,7 @@ export const Pricing: React.FC<PricingProps> = (): JSX.Element => {
               </p>
 
               <p className="plan-feature">
-                <span className="pricing-tick">✔</span> Weekly update on the
+                <span className="pricing-tick">✔</span> Weekly updates on the
                 project progress
               </p>
             </div>

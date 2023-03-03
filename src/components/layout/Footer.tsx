@@ -48,7 +48,7 @@ export const Footer: React.FC<FooterProps> = (): JSX.Element => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://t.me/tokenflow_ai"
+            href="https://t.me/TokenFlow_ai"
             className="social-link"
           >
             <TelegramIcon style={{ color: "#219CD7", fontSize: "2em" }} />

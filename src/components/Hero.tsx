@@ -1,14 +1,11 @@
 import React from "react";
 import "./hero.scss";
-import { useMediaQuery } from "react-responsive";
 
 type HeroProps = {
   children?: React.ReactNode;
 };
 
 export const Hero: React.FC<HeroProps> = (): JSX.Element => {
-  const isSmallScreen = useMediaQuery({ query: "(max-width: 350px)" });
-
   return (
     <div className="intro-screen" id="tokenflow">
       <div className="intro-text">
@@ -27,22 +24,12 @@ export const Hero: React.FC<HeroProps> = (): JSX.Element => {
         </p>
 
         <div className="intro-buttons">
-          <button
-            className="btn shadow-btn mr-5 hero-btn"
-            type="button"
-            style={{
-              width: isSmallScreen ? "100px" : "",
-              fontSize: isSmallScreen ? "1.1rem" : "",
-            }}
-          >
+          <button className="btn shadow-btn mr-5 hero-btn" type="button">
             <a
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-link"
+              className="btn-link btn-link-hero"
               href="https://calendly.com/tokenflow"
-              style={{
-                fontSize: isSmallScreen ? "0.97rem" : "1.2rem",
-              }}
             >
               Schedule a Call
             </a>

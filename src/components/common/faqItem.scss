@@ -1,7 +1,7 @@
 @import "../../variables.scss";
 
 .faq-item {
-  margin-bottom: 2rem;
+  margin-bottom: 2em;
   border-bottom: 1px solid #eaeaea;
   padding-top: 20px;
 }
@@ -12,7 +12,7 @@
 
 .faq-item__question {
   font-weight: bold;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.5em;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -35,11 +35,17 @@
 }
 
 .faq-item__question__icon {
-  margin-right: 0.5rem;
-  font-size: 1.2rem;
+  margin-right: 2px;
   cursor: pointer;
+  margin-left: 10px;
 
   @media screen and (max-width: 768px) {
-    font-size: 1rem;
+    font-size: 1em;
+  }
+
+  .toggle-faq-icon {
+    font-size: 1.5em;
+    stroke: #000;
+    stroke-width: 1px;
   }
 }

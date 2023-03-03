@@ -6,5 +6,5 @@ type OurClientsProps = {
 };
 
 export const OurClients: React.FC<OurClientsProps> = (): JSX.Element => {
-  return <div></div>;
+  return <div className="our-clients-container"></div>;
 };

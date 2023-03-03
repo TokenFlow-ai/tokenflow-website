@@ -37,7 +37,7 @@
   .nav-link {
     color: #ffffff;
     opacity: 0.8;
-    font-size: 1.125rem !important;
+    font-size: 1.125em !important;
     margin: 0 10px;
 
     &:hover {
@@ -51,6 +51,14 @@
     .btn-link {
       opacity: 1 !important;
     }
+  }
+}
+
+.mobile-menu-container {
+  background-color: #1a1f24;
+
+  @media screen and (max-width: 1150px) {
+    padding-bottom: 160vw;
   }
 }
 
@@ -187,12 +195,12 @@ input {
 
 .header-btn {
   height: 50px !important;
-  font-size: 1.125rem !important;
+  font-size: 18px !important;
   margin-right: 40px;
 }
 
 .nav-link-mobile {
-  font-size: 1.125rem !important;
+  font-size: 1.125em !important;
 }
 
 .MuiButtonBase-root,

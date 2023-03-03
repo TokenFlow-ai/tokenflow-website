@@ -8,8 +8,18 @@ type SpinnerProps = {
 
 export const Spinner: React.FC<SpinnerProps> = (): JSX.Element => {
   return (
-    <React.Fragment>
-      <img src={spinner} alt="Loading..." className="spinner" />
-    </React.Fragment>
+    <div className="spinner-container">
+      <div>
+        <img
+          src={spinner}
+          alt="Loading..."
+          title="Loading..."
+          className="spinner"
+        />
+        <p className="spinner-loading" title="Loading..." style={{ color: "" }}>
+          Loading...
+        </p>
+      </div>
+    </div>
   );
 };
