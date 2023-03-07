@@ -8,9 +8,9 @@ import clsx from "clsx";
 import { makeStyles } from "@material-ui/core/styles";
 import MenuIcon from "@material-ui/icons/Menu";
 import Button from "@material-ui/core/Button";
-import transparentPNGLogo from "../../assets/logo.png";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import TelegramIcon from "@material-ui/icons/Telegram";
+import transparentSVGFavicon from "../../assets/favicon.svg";
 
 type HeaderProps = {
   children?: React.ReactNode;
@@ -167,10 +167,10 @@ export const Header: React.FC<HeaderProps> = (): JSX.Element => {
             <a href="/#tokenflow">
               <img
                 className="logo-img"
-                src={transparentPNGLogo}
+                src={transparentSVGFavicon}
                 alt="TokenFlow"
-                width="200"
-                height="40"
+                width="72.5"
+                height="72.5"
               />
             </a>
           </div>
@@ -240,10 +240,10 @@ export const Header: React.FC<HeaderProps> = (): JSX.Element => {
             <Link to="/">
               <img
                 className="logo-img logo-img-header"
-                src={transparentPNGLogo}
+                src={transparentSVGFavicon}
                 alt="TokenFlow"
-                width="200"
-                height="40"
+                width="72.5"
+                height="72.5"
               />
             </Link>
           </div>

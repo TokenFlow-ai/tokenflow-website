@@ -12,4 +12,4 @@
 
 **Website URL:** **[https://tokenflow.ai](https://tokenflow.ai)**
 
-**ENS Domain:** **[tokenflowai.eth](https://etherscan.io/0x32acDAdB2D7E7FAF79A60a6AEfEC5264D9A5a790)**
+**ENS Domain:** **[tokenflowai.eth](https://etherscan.io/address/tokenflowai.eth)**
