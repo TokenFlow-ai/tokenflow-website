@@ -10,7 +10,7 @@ export const Hero: React.FC<HeroProps> = (): JSX.Element => {
     <div className="intro-screen" id="tokenflow">
       <div className="intro-text">
         <h1 className="intro-title text-left mb-5 bold">
-          Your Premium Smart Contract Development Agency
+          Your Go-To Smart Contract Development Agency
         </h1>
 
         <p className="intro-description mb-5">

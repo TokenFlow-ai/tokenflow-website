@@ -83,7 +83,7 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
             <strong>Our primary supported blockchains include:</strong> Ethereum
             mainnet, Arbitrum One, Optimism, Polygon, BNB Smart Chain (BSC),
             Avalanche C-Chain and Fantom Opera. In addition to these, we support
-            and can build smart contracts for you on dozens of the{" "}
+            and can build smart contracts for you on 80+ of the{" "}
             <a
               className="faq-link"
               href="/EVM_Compatible_Networks.pdf"
@@ -131,8 +131,8 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
             >
               tokenflowai.eth
             </a>
-            ). If you'd like to use the standard address format, our address is
-            as follows:{" "}
+            ). If you'd like to use the traditional address format, our address
+            is as follows:{" "}
             <span
               onClick={() => {
                 copyToClipboard("0x32acDAdB2D7E7FAF79A60a6AEfEC5264D9A5a790");
@@ -218,7 +218,7 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
             For the <strong>Ethereum mainnet contract development,</strong> we
             typically charge an additional{" "}
             <strong>
-              $1,000 fixed fee per contract to cover the gas costs
+              fee of up to $1,000 per contract to cover the gas costs
             </strong>{" "}
             associated with the contract deployment.
             <br /> <br />
@@ -241,7 +241,7 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
             >
               contact@tokenflow.ai
             </a>
-            , or by scheduling a 30 minute free consultation call{" "}
+            , or by scheduling a 30 minute free consultation call with us{" "}
             <a
               className="faq-link"
               href="https://calendly.com/tokenflow"

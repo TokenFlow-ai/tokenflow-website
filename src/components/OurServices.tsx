@@ -134,7 +134,7 @@ export const OurServices: React.FC<OurServicesProps> = (): JSX.Element => {
                   className="pricing-link"
                   title="The Full List of Custom Smart Contract Types"
                 >
-                  50+ types of custom smart contracts
+                  60+ types of custom smart contracts
                 </a>{" "}
                 that we can build for you
               </p>
