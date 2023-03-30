@@ -68,9 +68,6 @@ export const Header: React.FC<HeaderProps> = (): JSX.Element => {
           <a href="/#faqs" className="nav-link">
             FAQs
           </a>
-          <a href="/#supported_chains" className="nav-link">
-            Supported Chains
-          </a>
           <a
             href="mailto:contact@tokenflow.ai"
             rel="noopener noreferrer"
@@ -93,10 +90,6 @@ export const Header: React.FC<HeaderProps> = (): JSX.Element => {
               rel="noopener noreferrer"
               target="_blank"
               className="nav-link"
-              style={{
-                marginRight: "30px",
-                marginLeft: "12px",
-              }}
             >
               <TelegramIcon style={{ color: "#219CD7", fontSize: "2em" }} />
             </a>
@@ -184,27 +177,8 @@ export const Header: React.FC<HeaderProps> = (): JSX.Element => {
             <a href="/#faqs" className="nav-link">
               FAQs
             </a>
-            <a href="/#supported_chains" className="nav-link">
-              Supported Chains
-            </a>
             <a
               href="mailto:contact@tokenflow.ai"
-              rel="noopener noreferrer"
-              target="_blank"
-              className="nav-link"
-            >
-              Contact
-            </a>
-            <a
-              href="https://twitter.com/TokenFlow_ai"
-              rel="noopener noreferrer"
-              target="_blank"
-              className="nav-link"
-            >
-              <TwitterIcon style={{ color: "#04ABED", fontSize: "2em" }} />
-            </a>
-            <a
-              href="https://t.me/TokenFlow_ai"
               rel="noopener noreferrer"
               target="_blank"
               className="nav-link"
@@ -213,7 +187,7 @@ export const Header: React.FC<HeaderProps> = (): JSX.Element => {
                 marginLeft: "7px",
               }}
             >
-              <TelegramIcon style={{ color: "#219CD7", fontSize: "2em" }} />
+              Contact
             </a>
             <button
               className="btn shadow-btn header-btn"

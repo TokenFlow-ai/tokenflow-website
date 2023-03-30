@@ -29,7 +29,7 @@ export const Chains: React.FC<ChainsProps> = (): JSX.Element => {
         <Chain
           name={
             <a
-              href="/EVM_Compatible_Networks.pdf"
+              href="/evm_networks.pdf"
               rel="noopener noreferrer"
               target="_blank"
               style={{

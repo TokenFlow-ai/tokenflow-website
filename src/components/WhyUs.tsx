@@ -29,7 +29,7 @@ export const WhyUs: React.FC<WhyUsProps> = (): JSX.Element => {
             />
           </div>
           <div className="key-feat-text">
-            <h4 className="key-feat-title">Client-Focused</h4>
+            <h3 className="key-feat-title">Client-Focused</h3>
             <p className="key-feat-desc">
               From the initial consultation to the final product delivery, we
               work closely with you to gain{" "}
@@ -56,7 +56,7 @@ export const WhyUs: React.FC<WhyUsProps> = (): JSX.Element => {
             />
           </div>
           <div className="key-feat-text">
-            <h4 className="key-feat-title">Premium Quality</h4>
+            <h3 className="key-feat-title">Premium Quality</h3>
             <p className="key-feat-desc">
               As smart contracts are immutable,{" "}
               <strong>quality is of the utmost importance.</strong> We pay close
@@ -81,7 +81,7 @@ export const WhyUs: React.FC<WhyUsProps> = (): JSX.Element => {
             />
           </div>
           <div className="key-feat-text">
-            <h4 className="key-feat-title mt-5">Transparent Pricing</h4>
+            <h3 className="key-feat-title mt-5">Transparent Pricing</h3>
             <p className="key-feat-desc">
               We believe in honest and upfront communication. That's why{" "}
               <strong>we provide simple and transparent pricing</strong> to our

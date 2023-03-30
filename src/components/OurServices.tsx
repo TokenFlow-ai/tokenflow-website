@@ -49,6 +49,10 @@ export const OurServices: React.FC<OurServicesProps> = (): JSX.Element => {
                 <span className="pricing-tick">✔</span> Weekly updates on the
                 project progress
               </p>
+              <p className="plan-feature">
+                <span className="pricing-tick">✔</span> One free code revision
+                in case of any issues
+              </p>
             </div>
 
             <button className="btn shadow-btn pricing-btn">
@@ -69,7 +73,6 @@ export const OurServices: React.FC<OurServicesProps> = (): JSX.Element => {
             <p className="plan-price-container">
               <span className="plan-price">starting from $20,000</span>{" "}
             </p>
-
             <div className="plan-features">
               <p className="plan-feature">
                 <span className="pricing-tick pricing-tick">✔</span>{" "}
@@ -77,7 +80,7 @@ export const OurServices: React.FC<OurServicesProps> = (): JSX.Element => {
               </p>
               <p className="plan-feature">
                 <span className="pricing-tick pricing-tick">✔</span> Supported
-                token standards: ERC721, ERC721A, ERC1155 & more
+                token standards: ERC721, ERC1155 & more
               </p>
               <p className="plan-feature">
                 <span className="pricing-tick pricing-tick">✔</span> 100% test
@@ -99,6 +102,10 @@ export const OurServices: React.FC<OurServicesProps> = (): JSX.Element => {
                 <span className="pricing-tick pricing-tick">✔</span> Weekly
                 updates on the project progress
               </p>
+              <p className="plan-feature">
+                <span className="pricing-tick">✔</span> One free code revision
+                in case of any issues
+              </p>
             </div>
 
             <button className="btn shadow-btn pricing-btn">
@@ -114,7 +121,9 @@ export const OurServices: React.FC<OurServicesProps> = (): JSX.Element => {
           </div>
 
           <div className="pricing-card pricing-card-2">
-            <h2 className="pricing-plan-title">Custom Contract Development</h2>
+            <h2 className="pricing-plan-title">
+              Custom Smart Contract Development
+            </h2>
 
             <p className="plan-price-container">
               <span className="plan-price">starting from $30,000</span>{" "}
@@ -128,7 +137,7 @@ export const OurServices: React.FC<OurServicesProps> = (): JSX.Element => {
               <p className="plan-feature">
                 <span className="pricing-tick">✔</span>{" "}
                 <a
-                  href="/The_Full_List_of_Custom_Smart_Contract_Types.pdf"
+                  href="/contract_types.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="pricing-link"
@@ -153,10 +162,13 @@ export const OurServices: React.FC<OurServicesProps> = (): JSX.Element => {
                 <span className="pricing-tick">✔</span> 24/7 email & Telegram
                 support
               </p>
-
               <p className="plan-feature">
                 <span className="pricing-tick">✔</span> Weekly updates on the
                 project progress
+              </p>
+              <p className="plan-feature">
+                <span className="pricing-tick">✔</span> One free code revision
+                in case of any issues
               </p>
             </div>
 

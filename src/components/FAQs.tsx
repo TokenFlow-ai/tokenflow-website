@@ -30,7 +30,7 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
         Frequently Asked Questions
       </h1>
       <FAQItem
-        question="What is a smart contract?"
+        question="1.) What is a smart contract?"
         answer={
           <span>
             <strong>A smart contract</strong> is a computer program or a
@@ -41,7 +41,7 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
         }
       />
       <FAQItem
-        question="What are the benefits of using smart contracts?"
+        question="2.) What are the benefits of using smart contracts?"
         answer={
           <span>
             Smart contracts are{" "}
@@ -54,7 +54,7 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
         }
       />
       <FAQItem
-        question="What types of smart contracts do you build?"
+        question="3.) What types of smart contracts do you build?"
         answer={
           <span>
             <strong>
@@ -65,7 +65,7 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
             <br /> <br /> Here's the link to{" "}
             <a
               className="faq-link"
-              href="/The_Full_List_of_Custom_Smart_Contract_Types.pdf"
+              href="/contract_types.pdf"
               rel="noopener noreferrer"
               target="_blank"
               title="The Full List of Custom Smart Contract Types"
@@ -77,7 +77,7 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
         }
       />
       <FAQItem
-        question="Which blockchains do you support?"
+        question="4.) Which blockchains do you support?"
         answer={
           <span>
             <strong>Our primary supported blockchains include:</strong> Ethereum
@@ -86,7 +86,7 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
             and can build smart contracts for you on 80+ of the{" "}
             <a
               className="faq-link"
-              href="/EVM_Compatible_Networks.pdf"
+              href="/evm_networks.pdf"
               rel="noopener noreferrer"
               target="_blank"
               title="List of EVM Compatible Networks"
@@ -97,7 +97,7 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
         }
       />
       <FAQItem
-        question="Do you use AI in your smart contract development process, and if so, how?"
+        question="5.) Do you use AI in your smart contract development process, and if so, how?"
         answer={
           <span>
             Yes, we use AI in our smart contract development process to automate
@@ -115,14 +115,14 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
         }
       />
       <FAQItem
-        question="Which payment methods do you accept?"
+        question="6.) Which payment methods do you accept?"
         answer={
           <span>
             As a crypto-native company,{" "}
             <strong>
-              we accept payments in USDT, USDC and DAI stablecoins
+              our primary payment methods include BTC, ETH and USDT.
             </strong>{" "}
-            to our ENS address (
+            You can send ETH and USDT to our ENS address (
             <a
               className="faq-link"
               href="https://etherscan.io/address/tokenflowai.eth"
@@ -132,7 +132,7 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
               tokenflowai.eth
             </a>
             ). If you'd like to use the traditional address format, our address
-            is as follows:{" "}
+            is as follows for the ETH and USDT:{" "}
             <span
               onClick={() => {
                 copyToClipboard("0x32acDAdB2D7E7FAF79A60a6AEfEC5264D9A5a790");
@@ -156,14 +156,19 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
               <span className="pricing-">(click on the address to copy).</span>
             )}
             <br /> <br />
-            <strong>You can pay on any of the following networks:</strong>{" "}
+            <strong>
+              We accept ETH and USDT on any of the following networks:
+            </strong>{" "}
             Ethereum Mainnet, Arbitrum One, Optimism, Polygon, BNB Smart Chain
-            (BSC), Avalanche C-Chain and Fantom Opera.
+            (BSC), Avalanche C-Chain and Fantom Opera.{" "}
+            <strong>
+              As for BTC , we accept it on the Bitcoin network only.
+            </strong>
           </span>
         }
       />
       <FAQItem
-        question="What is the payment structure for your smart contract development services?"
+        question="7.) What is the payment structure for your smart contract development services?"
         answer={
           <span>
             Our payment structure is{" "}
@@ -178,13 +183,13 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
         }
       />
       <FAQItem
-        question="What is your typical project delivery time?"
+        question="8.) What is your typical project delivery time?"
         answer={
           <span>
             The project delivery time varies depending on the complexity of the
             contracts and other factors. In general,{" "}
             <strong>typical project delivery takes 3-6 weeks.</strong> We offer
-            a 30 minute free consultation call to provide a better estimate of
+            a 30-minute free consultation call to provide a better estimate of
             the development time. You can{" "}
             <a
               className="faq-link"
@@ -199,7 +204,7 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
         }
       />
       <FAQItem
-        question="Is there an option to get the faster service delivery?"
+        question="9.) Is there an option to get the faster service delivery?"
         answer={
           <span>
             Yes,{" "}
@@ -212,7 +217,7 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
         }
       />
       <FAQItem
-        question="Are there any additional fees or charges?"
+        question="10.) Are there any additional fees or charges?"
         answer={
           <span>
             For the <strong>Ethereum mainnet contract development,</strong> we
@@ -229,7 +234,22 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
         }
       />
       <FAQItem
-        question="I haven't found an answer to my question. Where can I get help?"
+        question="11.) Do you have a referral program currently active?"
+        answer={
+          <span>
+            Yes, we have a referral program for our smart contract development
+            services. If you like our work and{" "}
+            <strong>
+              know of anyone who might be interested in our services,
+            </strong>{" "}
+            please feel free to refer them to us. We will be more than happy to
+            provide you with{" "}
+            <strong>a 10% discount on your next project with us.</strong>
+          </span>
+        }
+      />
+      <FAQItem
+        question="12.) I haven't found an answer to my question. Where can I get help?"
         answer={
           <span>
             You can always contact us directly via email at{" "}
@@ -241,7 +261,7 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
             >
               contact@tokenflow.ai
             </a>
-            , or by scheduling a 30 minute free consultation call with us{" "}
+            , or by scheduling a 30-minute free consultation call with us{" "}
             <a
               className="faq-link"
               href="https://calendly.com/tokenflow"

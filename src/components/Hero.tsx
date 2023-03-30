@@ -14,9 +14,9 @@ export const Hero: React.FC<HeroProps> = (): JSX.Element => {
         </h1>
 
         <p className="intro-description mb-5">
-          At TokenFlow, we create custom smart contracts to meet all of your
-          project's needs and requirements and to help{" "}
-          <strong>turn your vision into a reality.</strong>
+          At TokenFlow, we specialize in developing custom smart contracts
+          tailored to your project's needs and requirements{" "}
+          <strong>turning your vision into a reality.</strong>
           <br /> <br />
           With our deep expertise and commitment to excellence, we'll work with
           you every step of the way.{" "}
