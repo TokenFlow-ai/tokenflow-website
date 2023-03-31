@@ -48,7 +48,12 @@ export const Footer: React.FC<FooterProps> = (): JSX.Element => {
               href="https://linkedin.com/company/tokenflow-ai"
               className="social-link"
             >
-              <LinkedInIcon style={{ color: "#0177B7", fontSize: "2em" }} />
+              <LinkedInIcon
+                style={{
+                  color: "#0177B7",
+                  fontSize: "2em",
+                }}
+              />
             </a>
             <a
               target="_blank"

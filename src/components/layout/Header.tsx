@@ -8,8 +8,6 @@ import clsx from "clsx";
 import { makeStyles } from "@material-ui/core/styles";
 import MenuIcon from "@material-ui/icons/Menu";
 import Button from "@material-ui/core/Button";
-import TwitterIcon from "@material-ui/icons/Twitter";
-import TelegramIcon from "@material-ui/icons/Telegram";
 import transparentSVGFavicon from "../../assets/favicon.svg";
 
 type HeaderProps = {
@@ -76,24 +74,6 @@ export const Header: React.FC<HeaderProps> = (): JSX.Element => {
           >
             Contact
           </a>
-          <div className="mobile-header-social-links">
-            <a
-              href="https://twitter.com/TokenFlow_ai"
-              rel="noopener noreferrer"
-              target="_blank"
-              className="nav-link"
-            >
-              <TwitterIcon style={{ color: "#04ABED", fontSize: "2em" }} />
-            </a>
-            <a
-              href="https://t.me/TokenFlow_ai"
-              rel="noopener noreferrer"
-              target="_blank"
-              className="nav-link"
-            >
-              <TelegramIcon style={{ color: "#219CD7", fontSize: "2em" }} />
-            </a>
-          </div>
           <button
             className="btn shadow-btn header-btn mobile-header-btn"
             type="button"

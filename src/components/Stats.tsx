@@ -22,14 +22,7 @@ export const Stats: React.FC<StatsProps> = (): JSX.Element => {
         </div>
 
         <div className="stat-circle">
-          <div
-            className="stat-circle-title"
-            style={{
-              width: "80%",
-            }}
-          >
-            Contract Types Offered
-          </div>
+          <div className="stat-circle-title">Contract Types Offered</div>
           <div className="stat-circle-number">60+</div>
         </div>
       </div>

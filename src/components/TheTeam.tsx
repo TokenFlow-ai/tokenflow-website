@@ -2,7 +2,7 @@ import React from "react";
 import "./theTeam.scss";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import mihailo from "../assets/pfp.png";
+import mihailo from "../assets/mihailo.png";
 import andela from "../assets/andela_small.jpeg";
 
 type TheTeamProps = {
@@ -29,6 +29,7 @@ export const TheTeam: React.FC<TheTeamProps> = (): JSX.Element => {
               Mihailo is a highly skilled smart contract engineer with over 4
               years of experience in the development of DeFi protocols, NFT
               contracts, DAOs and various different dApps and web3 applications.
+              <br /> <br />
               He is responsible for managing the delivery of work to our clients
               in a timely manner, and has a proven track record of delivering
               secure contracts that have been audited and approved by reputable
@@ -66,9 +67,11 @@ export const TheTeam: React.FC<TheTeamProps> = (): JSX.Element => {
               Andela's extensive experience in crypto startup scene and
               strategic vision have enabled her to identify new business
               opportunities and develop innovative solutions to meet the needs
-              of clients. With her strong leadership skills and dedication to
-              excellence, she plays a pivotal role in driving the growth and
-              expansion of the company's client base. #Women in Blockchain
+              of clients.
+              <br /> <br />
+              With her strong leadership skills and dedication to excellence,
+              she plays a pivotal role in driving the growth and expansion of
+              the company's client base. #Women in Blockchain
             </div>
             <div className="team-member-socials">
               <a

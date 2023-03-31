@@ -31,13 +31,14 @@
       width: 215px;
       height: 215px;
       border-radius: 50%;
-      background-color: $semi-light-blue;
+      background-color: $white;
+      border: 12px solid $blue;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
       margin: 0 50px;
-      color: $white;
+      color: $dark;
       box-shadow: #3d7dd6 0px 3px 12px;
 
       @media screen and (max-width: 992px) {
@@ -45,12 +46,14 @@
       }
 
       .stat-circle-title {
-        font-size: 1.05em;
+        font-size: 1.1em;
         text-align: center;
         font-weight: bold;
+        width: 80%;
+        opacity: 0.8;
 
         @media screen and (max-width: 992px) {
-          font-size: 0.85em;
+          font-size: 0.9em;
         }
       }
 
