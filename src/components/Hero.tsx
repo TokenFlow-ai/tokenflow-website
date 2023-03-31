@@ -45,6 +45,7 @@ export const Hero: React.FC<HeroProps> = (): JSX.Element => {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
           className="mr-4 video promo-video"
+          loading="lazy"
         />
       </div>
     </div>

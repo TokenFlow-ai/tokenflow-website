@@ -4,6 +4,7 @@ import { OurClients } from "./OurClients";
 import { WhyUs } from "./WhyUs";
 import { OurServices } from "./OurServices";
 import { Testimonials } from "./Testimonials";
+import { Stats } from "./Stats";
 import { TheTeam } from "./TheTeam";
 import { FAQs } from "./FAQs";
 import { Chains } from "./Chains";
@@ -20,6 +21,7 @@ export const HomePage: React.FC<HomePageProps> = (): JSX.Element => {
       <OurServices />
       <OurClients />
       <Testimonials />
+      <Stats />
       <TheTeam />
       <FAQs />
       <Chains />

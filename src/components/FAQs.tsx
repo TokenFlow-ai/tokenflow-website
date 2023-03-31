@@ -8,13 +8,22 @@ type FAQsProps = {
 };
 
 export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
-  const [copied, setCopied] = useState<boolean>(false);
+  const [copiedEthUsdt, setCopiedEthUsdt] = useState<boolean>(false);
+  const [copiedBtc, setCopiedBtc] = useState<boolean>(false);
 
-  const handleSetCopied = (): void => {
-    setCopied(true);
+  const handleSetCopiedEthUsdt = (): void => {
+    setCopiedEthUsdt(true);
 
     setTimeout(() => {
-      setCopied(false);
+      setCopiedEthUsdt(false);
+    }, 3000);
+  };
+
+  const handleSetCopiedBtc = (): void => {
+    setCopiedBtc(true);
+
+    setTimeout(() => {
+      setCopiedBtc(false);
     }, 3000);
   };
 
@@ -81,9 +90,10 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
         answer={
           <span>
             <strong>Our primary supported blockchains include:</strong> Ethereum
-            mainnet, Arbitrum One, Optimism, Polygon, BNB Smart Chain (BSC),
-            Avalanche C-Chain and Fantom Opera. In addition to these, we support
-            and can build smart contracts for you on 80+ of the{" "}
+            mainnet, Arbitrum One, Optimism, Polygon (PoS chain and zkEVM),
+            zkSync Era, BNB Smart Chain (BSC), Avalanche C-Chain and Fantom
+            Opera. In addition to these, we support and can build smart
+            contracts for you on 80+ of the{" "}
             <a
               className="faq-link"
               href="/evm_networks.pdf"
@@ -122,7 +132,7 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
             <strong>
               our primary payment methods include BTC, ETH and USDT.
             </strong>{" "}
-            You can send ETH and USDT to our ENS address (
+            You can send ETH and USDT to our <strong>ENS address</strong> (
             <a
               className="faq-link"
               href="https://etherscan.io/address/tokenflowai.eth"
@@ -132,17 +142,17 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
               tokenflowai.eth
             </a>
             ). If you'd like to use the traditional address format, our address
-            is as follows for the ETH and USDT:{" "}
+            is as follows for the <strong>ETH and USDT:</strong>{" "}
             <span
               onClick={() => {
                 copyToClipboard("0x32acDAdB2D7E7FAF79A60a6AEfEC5264D9A5a790");
-                handleSetCopied();
+                handleSetCopiedEthUsdt();
               }}
               className="payment-address"
             >
               0x32acDAdB2D7E7FAF79A60a6AEfEC5264D9A5a790
             </span>{" "}
-            {copied ? (
+            {copiedEthUsdt ? (
               <span
                 style={{
                   color: "#28a745",
@@ -153,14 +163,39 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
                 ✔ Copied to Clipboard!
               </span>
             ) : (
-              <span className="pricing-">(click on the address to copy).</span>
+              <span>(click on the address to copy).</span>
+            )}
+            <br /> <br />
+            For <strong>BTC payments,</strong> our address is as follows:{" "}
+            <span
+              onClick={() => {
+                copyToClipboard("bc1qq6amn3u2g4n3lc0fx3942x9k2dljlr5lzc83qa");
+                handleSetCopiedBtc();
+              }}
+              className="payment-address"
+            >
+              bc1qq6amn3u2g4n3lc0fx3942x9k2dljlr5lzc83qa
+            </span>{" "}
+            {copiedBtc ? (
+              <span
+                style={{
+                  color: "#28a745",
+                  marginLeft: "10px",
+                  fontWeight: "bold",
+                }}
+              >
+                ✔ Copied to Clipboard!
+              </span>
+            ) : (
+              <span>(click on the address to copy).</span>
             )}
             <br /> <br />
             <strong>
               We accept ETH and USDT on any of the following networks:
             </strong>{" "}
-            Ethereum Mainnet, Arbitrum One, Optimism, Polygon, BNB Smart Chain
-            (BSC), Avalanche C-Chain and Fantom Opera.{" "}
+            Ethereum Mainnet, Arbitrum One, Optimism, Polygon (PoS chain and
+            zkEVM), zkSync Era, BNB Smart Chain (BSC), Avalanche C-Chain and
+            Fantom Opera.{" "}
             <strong>
               As for BTC , we accept it on the Bitcoin network only.
             </strong>
@@ -249,7 +284,28 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
         }
       />
       <FAQItem
-        question="12.) I haven't found an answer to my question. Where can I get help?"
+        question="12.) Are the smart contracts you develop audited, tested and secure?"
+        answer={
+          <span>
+            Even though we are not an auditing firm,{" "}
+            <strong>we take security very seriously</strong> and do our best to
+            ensure that the contracts we develop are secure and bug-free.{" "}
+            <strong>We offer 100% test coverage</strong> for all of the
+            contracts that we develop, which means that we test every single
+            line of code.
+            <br /> <br />
+            In an unfortunate event that you find a bug in the contract, or if
+            it gets hacked,{" "}
+            <strong>we will provide a fix for it free of charge.</strong> Also,
+            if you are interested in a{" "}
+            <strong>third-party audit of the contracts,</strong> we can point
+            you in the right direction by providing you with a list of reputable
+            auditing firms that can perform the audit for you.
+          </span>
+        }
+      />
+      <FAQItem
+        question="13.) I haven't found an answer to my question. Where can I get help?"
         answer={
           <span>
             You can always contact us directly via email at{" "}

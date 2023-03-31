@@ -1,4 +1,122 @@
 @import "../variables.scss";
 
 .the-team-container {
+  width: 100%;
+
+  @media screen and (max-width: 992px) {
+    margin-bottom: -71px;
+  }
+
+  .the-team-title-container {
+    margin: 100px 0 50px;
+
+    @media screen and (max-width: 992px) {
+      margin: 46px 0 50px;
+    }
+
+    .the-team-subtitle {
+      text-align: center;
+      font-size: 1.25em;
+      color: $light-blue;
+
+      @media screen and (max-width: 580px) {
+        font-size: 1em;
+      }
+    }
+
+    .the-team-title {
+      font-size: 2.75em;
+      font-weight: bold;
+      text-align: center;
+
+      @media screen and (max-width: 992px) {
+        font-size: 2em;
+      }
+    }
+  }
+
+  .team-members-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+
+    @media screen and (max-width: 992px) {
+      flex-direction: column;
+    }
+
+    .team-member {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      .team-member-image {
+        width: 155px;
+        height: 155px;
+        border-radius: 50%;
+      }
+
+      .team-member-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 20px auto;
+        width: 80%;
+
+        .team-member-name {
+          font-size: 1.75em;
+          font-weight: bold;
+          margin: 0 0 10px;
+
+          @media screen and (max-width: 992px) {
+            font-size: 1.5em;
+          }
+        }
+
+        .team-member-position {
+          font-size: 1.25em;
+          margin: 0 0 10px;
+
+          @media screen and (max-width: 992px) {
+            font-size: 1em;
+          }
+        }
+
+        .team-member-description {
+          font-size: 1em;
+          margin-top: 10px;
+          width: 90%;
+
+          @media screen and (max-width: 992px) {
+            font-size: 0.85em;
+          }
+        }
+
+        .team-member-socials {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: row;
+          margin-top: 25px;
+
+          @media screen and (max-width: 992px) {
+            margin-bottom: 50px;
+          }
+
+          .team-member-social {
+            margin: 0 10px;
+            opacity: 0.8;
+
+            &:hover {
+              opacity: 1;
+            }
+          }
+        }
+      }
+    }
+  }
 }

@@ -25,7 +25,7 @@ export const Chain: React.FC<ChainProps> = ({
           ...style,
         }}
       />
-      <h3 className="chain-title">{name}</h3>
+      <h4 className="chain-title">{name}</h4>
     </div>
   );
 };

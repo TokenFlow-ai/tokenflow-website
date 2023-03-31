@@ -25,10 +25,10 @@
 
 .chains-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-gap: 70px;
 
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1111px) {
     grid-template-columns: repeat(2, 1fr);
   }
 
