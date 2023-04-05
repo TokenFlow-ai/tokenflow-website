@@ -8,7 +8,8 @@ import clsx from "clsx";
 import { makeStyles } from "@material-ui/core/styles";
 import MenuIcon from "@material-ui/icons/Menu";
 import Button from "@material-ui/core/Button";
-import transparentSVGFavicon from "../../assets/favicon.svg";
+// import transparentSVGFavicon from "../../assets/favicon.svg";
+import transparentSVGFavicon from "../../assets/new_logo_transparent.png";
 
 type HeaderProps = {
   children?: React.ReactNode;
@@ -142,8 +143,8 @@ export const Header: React.FC<HeaderProps> = (): JSX.Element => {
                 className="logo-img"
                 src={transparentSVGFavicon}
                 alt="TokenFlow"
-                width="72.5"
-                height="72.5"
+                width="62.5"
+                height="62.5"
               />
             </a>
           </div>

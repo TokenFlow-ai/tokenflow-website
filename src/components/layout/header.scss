@@ -1,7 +1,7 @@
 @import "../../variables.scss";
 
 .navbar {
-  height: 12vh;
+  height: 13vh;
   width: 100%;
   position: fixed;
   background-color: #fafbfd;
@@ -12,7 +12,7 @@
   background-color: #1a1f24;
 
   @media screen and (max-width: 400px) {
-    height: 13.2vh;
+    height: 13.5vh;
   }
 
   @media screen and (min-width: 273px) and (max-width: 360px) {
@@ -20,7 +20,7 @@
   }
 
   .logo {
-    margin-left: 32px;
+    margin-left: 124px;
 
     @media screen and (max-width: 300px) {
       right: 36px !important;
