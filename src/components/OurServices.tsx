@@ -1,4 +1,5 @@
 import React from "react";
+import { PopupButton } from "react-calendly";
 import "./ourServices.scss";
 
 export type OurServicesProps = {
@@ -55,16 +56,12 @@ export const OurServices: React.FC<OurServicesProps> = (): JSX.Element => {
               </p>
             </div>
 
-            <button className="btn shadow-btn pricing-btn">
-              <a
-                href="https://calendly.com/tokenflow"
-                rel="noopener noreferrer"
-                target="_blank"
-                className="btn-link"
-              >
-                Schedule a Call
-              </a>
-            </button>
+            <PopupButton
+              url="https://calendly.com/tokenflow"
+              rootElement={document.getElementById("root") as HTMLElement}
+              text="Schedule a Call"
+              className="btn shadow-btn pricing-btn"
+            />
           </div>
 
           <div className="pricing-card pricing-card-1">
@@ -108,16 +105,12 @@ export const OurServices: React.FC<OurServicesProps> = (): JSX.Element => {
               </p>
             </div>
 
-            <button className="btn shadow-btn pricing-btn">
-              <a
-                href="https://calendly.com/tokenflow"
-                rel="noopener noreferrer"
-                target="_blank"
-                className="btn-link"
-              >
-                Schedule a Call
-              </a>
-            </button>
+            <PopupButton
+              url="https://calendly.com/tokenflow"
+              rootElement={document.getElementById("root") as HTMLElement}
+              text="Schedule a Call"
+              className="btn shadow-btn pricing-btn"
+            />
           </div>
 
           <div className="pricing-card pricing-card-2">
@@ -172,16 +165,12 @@ export const OurServices: React.FC<OurServicesProps> = (): JSX.Element => {
               </p>
             </div>
 
-            <button className="btn shadow-btn pricing-btn">
-              <a
-                href="https://calendly.com/tokenflow"
-                rel="noopener noreferrer"
-                target="_blank"
-                className="btn-link"
-              >
-                Schedule a Call
-              </a>
-            </button>
+            <PopupButton
+              url="https://calendly.com/tokenflow"
+              rootElement={document.getElementById("root") as HTMLElement}
+              text="Schedule a Call"
+              className="btn shadow-btn pricing-btn"
+            />
           </div>
         </div>
       </div>

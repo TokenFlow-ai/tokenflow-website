@@ -10,6 +10,7 @@ import MenuIcon from "@material-ui/icons/Menu";
 import Button from "@material-ui/core/Button";
 // import transparentSVGFavicon from "../../assets/favicon.svg";
 import transparentSVGFavicon from "../../assets/new_logo_transparent.png";
+import { PopupButton } from "react-calendly";
 
 type HeaderProps = {
   children?: React.ReactNode;
@@ -143,7 +144,7 @@ export const Header: React.FC<HeaderProps> = (): JSX.Element => {
                 className="logo-img"
                 src={transparentSVGFavicon}
                 alt="TokenFlow"
-                width="62.5"
+                width="62"
                 height="62.5"
               />
             </a>
@@ -170,23 +171,12 @@ export const Header: React.FC<HeaderProps> = (): JSX.Element => {
             >
               Contact
             </a>
-            <button
+            <PopupButton
+              url="https://calendly.com/tokenflow"
+              rootElement={document.getElementById("root") as HTMLElement}
+              text="Schedule a Call"
               className="btn shadow-btn header-btn"
-              type="button"
-              style={{
-                width: "160px",
-              }}
-            >
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://calendly.com/tokenflow"
-                className="btn-link bold header-btn text-center bold"
-                style={{ fontWeight: "bold", textAlign: "center", margin: "0" }}
-              >
-                Schedule a Call
-              </a>
-            </button>
+            />
           </div>
         </React.Fragment>
       ) : (

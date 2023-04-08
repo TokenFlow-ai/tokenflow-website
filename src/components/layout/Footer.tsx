@@ -1,11 +1,13 @@
 import React from "react";
 import "./footer.scss";
 import TwitterIcon from "@material-ui/icons/Twitter";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import LinkedInIcon from "../../assets/linkedin_icon.svg";
 import TelegramIcon from "@material-ui/icons/Telegram";
-import YouTubeIcon from "@material-ui/icons/YouTube";
+// import YouTubeIcon from "@material-ui/icons/YouTube";
+import YouTubeIcon from "../../assets/youtube_icon.svg";
 import EmailIcon from "@material-ui/icons/Email";
 import { getYear } from "../../utils/utils";
+import { PopupButton } from "react-calendly";
 
 type FooterProps = {
   children?: React.ReactNode;
@@ -48,10 +50,13 @@ export const Footer: React.FC<FooterProps> = (): JSX.Element => {
               href="https://linkedin.com/company/tokenflow-ai"
               className="social-link"
             >
-              <LinkedInIcon
+              <img
+                src={LinkedInIcon}
+                alt="LinkedIn"
                 style={{
-                  color: "#0177B7",
-                  fontSize: "2em",
+                  width: "25px",
+                  height: "25px",
+                  margin: "0 5px",
                 }}
               />
             </a>
@@ -61,7 +66,14 @@ export const Footer: React.FC<FooterProps> = (): JSX.Element => {
               href="https://www.youtube.com/channel/UClpnVlob8iQKsdg_Ih3HWFA"
               className="social-link"
             >
-              <YouTubeIcon style={{ color: "#FF0000", fontSize: "2em" }} />
+              <img
+                src={YouTubeIcon}
+                alt="YouTube"
+                style={{
+                  width: "40px",
+                  height: "40px",
+                }}
+              />
             </a>
             <a
               target="_blank"
@@ -69,7 +81,13 @@ export const Footer: React.FC<FooterProps> = (): JSX.Element => {
               href="https://t.me/TokenFlow_ai"
               className="social-link"
             >
-              <TelegramIcon style={{ color: "#219CD7", fontSize: "2em" }} />
+              <TelegramIcon
+                style={{
+                  color: "#219CD7",
+                  fontSize: "2em",
+                  marginRight: "5px",
+                }}
+              />
             </a>
             <a
               target="_blank"
@@ -80,18 +98,12 @@ export const Footer: React.FC<FooterProps> = (): JSX.Element => {
               <EmailIcon style={{ color: "#fff", fontSize: "2em" }} />
             </a>
           </span>
-          <button className="btn shadow-btn schedule-a-call-button">
-            <a
-              href="https://calendly.com/tokenflow"
-              rel="noopener noreferrer"
-              target="_blank"
-              style={{
-                color: "white",
-              }}
-            >
-              Schedule a Call
-            </a>
-          </button>
+          <PopupButton
+            url="https://calendly.com/tokenflow"
+            rootElement={document.getElementById("root") as HTMLElement}
+            text="Schedule a Call"
+            className="btn shadow-btn schedule-a-call-button"
+          />
         </div>
       </div>
 

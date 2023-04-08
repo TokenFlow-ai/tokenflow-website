@@ -1,5 +1,6 @@
 import React from "react";
 import "./hero.scss";
+import { PopupButton } from "react-calendly";
 
 type HeroProps = {
   children?: React.ReactNode;
@@ -24,23 +25,19 @@ export const Hero: React.FC<HeroProps> = (): JSX.Element => {
         </p>
 
         <div className="intro-buttons">
-          <button className="btn shadow-btn mr-5 hero-btn" type="button">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-link btn-link-hero"
-              href="https://calendly.com/tokenflow"
-            >
-              Schedule a Call
-            </a>
-          </button>
+          <PopupButton
+            url="https://calendly.com/tokenflow"
+            rootElement={document.getElementById("root") as HTMLElement}
+            text="Schedule a Call"
+            className="btn shadow-btn mr-5 hero-btn"
+          />
         </div>
       </div>
 
       <div className="intro-video">
         <iframe
           src="https://www.youtube.com/embed/NpEaa2P7qZI?autoplay=1&mute=1"
-          title="YouTube Video Player"
+          title="TokenFlow Explainer Video"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen

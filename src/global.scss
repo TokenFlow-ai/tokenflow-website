@@ -70,17 +70,14 @@ textarea {
 }
 
 .shadow-btn {
-  // background-color: #0066ff !important;
+  background-color: #0066ff !important;
   font-weight: bold;
   color: #fff !important;
   box-shadow: #3d7dd6 0px 3px 12px;
   text-decoration: none;
   border-radius: 5px !important;
-  background: linear-gradient(to left top, #69ffff, #0066ff);
-  opacity: 1;
 
   &:hover {
-    // background-color: #2760c2 !important;
     opacity: 0.9;
     transition: 150ms ease-in;
   }

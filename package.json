@@ -16,6 +16,8 @@
     "clsx": "^1.2.1",
     "node-sass": "^7.0.3",
     "react": "^18.2.0",
+    "react-calendly": "^4.1.1",
+    "react-countup": "^6.4.2",
     "react-dom": "^18.2.0",
     "react-responsive": "^9.0.2",
     "react-router-dom": "^6.8.1",
