@@ -18,7 +18,7 @@ export const TheTeam: React.FC<TheTeamProps> = (): JSX.Element => {
       </div>
 
       <div className="team-members-container">
-        <div className="team-member">
+        <div className="team-member team-member-mihailo">
           <img className="team-member-image" src={mihailo} alt="Team Member" />
           <div className="team-member-info">
             <h3 className="team-member-name">Mihailo Maksa</h3>
