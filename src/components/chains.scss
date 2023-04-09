@@ -37,7 +37,7 @@
     }
   }
 
-  @media screen and (max-width: 1111px) {
+  @media screen and (min-width: 800px) and (max-width: 1111px) {
     grid-template-columns: repeat(2, 1fr);
 
     & > :nth-child(11) {
@@ -57,7 +57,7 @@
   justify-content: center;
   flex-direction: column;
   background-color: #fff;
-  margin-bottom: 88px;
+  margin-bottom: 93px;
 }
 
 .chains-heading {

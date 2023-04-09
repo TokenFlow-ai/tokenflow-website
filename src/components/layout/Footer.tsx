@@ -101,7 +101,7 @@ export const Footer: React.FC<FooterProps> = (): JSX.Element => {
           <PopupButton
             url="https://calendly.com/tokenflow"
             rootElement={document.getElementById("root") as HTMLElement}
-            text="Schedule a Call"
+            text="Schedule a FREE Call"
             className="btn shadow-btn schedule-a-call-button"
           />
         </div>

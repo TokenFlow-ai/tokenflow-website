@@ -91,7 +91,7 @@ export const Header: React.FC<HeaderProps> = (): JSX.Element => {
               className="btn-link bold header-btn text-center bold"
               style={{ fontWeight: "bold", textAlign: "center", margin: "0" }}
             >
-              Schedule a Call
+              Schedule a FREE Call
             </a>
           </button>
         </List>
@@ -173,7 +173,7 @@ export const Header: React.FC<HeaderProps> = (): JSX.Element => {
             <PopupButton
               url="https://calendly.com/tokenflow"
               rootElement={document.getElementById("root") as HTMLElement}
-              text="Schedule a Call"
+              text="Schedule a FREE Call"
               className="btn shadow-btn header-btn"
             />
           </div>

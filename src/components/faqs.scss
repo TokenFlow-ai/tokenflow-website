@@ -3,6 +3,10 @@
 .faq-container {
   margin-top: 40px;
 
+  @media screen and (max-width: 767px) {
+    margin-top: 90px;
+  }
+
   @media screen and (max-width: 675px) {
     width: 80%;
   }

@@ -1,5 +1,12 @@
 @import "../variables.scss";
 
+.pricing-card-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 @media screen and (max-width: 580px) {
   .about-cta-subtitle {
     font-size: 1.25em;
@@ -26,7 +33,7 @@
 }
 
 .pricing-card-title {
-  margin: 21px 0 38px;
+  margin: 21px 0 34px;
   font-weight: bold;
   font-size: 2.75em;
 
@@ -83,6 +90,12 @@
   border-radius: 10px;
 }
 
+.pricing-card-image {
+  height: 90px;
+  width: 90px;
+  margin-bottom: 22px;
+}
+
 .pricing-badge {
   border-radius: 0.5em;
   font-weight: bold;
@@ -94,9 +107,12 @@
 }
 
 .pricing-btn {
-  margin-top: 15px;
+  margin-top: 40px;
   padding-top: 8px;
   padding-bottom: 8px;
+  width: 215px;
+  font-size: 1.125em;
+  height: 55px;
 }
 
 .pricing-tick {
@@ -108,18 +124,17 @@
 }
 
 .pricing-plan-title {
-  margin: 0 0 20px;
+  margin: 0 0 10px;
   font-weight: bold;
   font-size: 1.7em;
   text-align: center;
 }
 
 .plan-price {
-  font-weight: bold;
   font-size: 1.125em;
   font-style: italic;
-  color: #282828;
-  color: rgba(0, 0, 0, 0.85);
+  color: $muted;
+  font-size: 1em;
 }
 
 .annual-sub {
@@ -291,4 +306,35 @@
   color: #06f;
   text-decoration: underline;
   font-weight: bold;
+}
+
+.our-services-intro {
+  margin: 0 0 40px;
+  text-align: center;
+
+  .our-services-intro-text {
+    font-size: 1.25em;
+    margin-bottom: 21px;
+
+    @media screen and (max-width: 992) {
+      font-size: 1.125em;
+    }
+  }
+
+  .intro-features {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+
+    .intro-feature {
+      font-size: 1.125em;
+      text-align: left;
+
+      @media screen and (max-width: 992) {
+        font-size: 1em;
+      }
+    }
+  }
 }
