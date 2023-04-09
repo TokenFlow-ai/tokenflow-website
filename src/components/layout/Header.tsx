@@ -138,7 +138,7 @@ export const Header: React.FC<HeaderProps> = (): JSX.Element => {
       {!isMobileHeader ? (
         <React.Fragment>
           <div className="logo">
-            <a href="/#tokenflow">
+            <a href="/">
               <img
                 className="logo-img"
                 src={transparentSVGFavicon}

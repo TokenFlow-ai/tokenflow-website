@@ -28,7 +28,7 @@ export const FAQItem: React.FC<FAQItemProps> = ({
     >
       <div className="faq-item">
         <div className="faq-item__question" onClick={toggleFAQHandler}>
-          <h3 className="faq-item__question__text">{question}</h3>
+          <p className="faq-item__question__text">{question}</p>
           <div className="faq-item__question__icon">
             {toggleFAQ ? (
               <MinusIcon className="toggle-faq-icon" />

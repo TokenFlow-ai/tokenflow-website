@@ -19,7 +19,7 @@ type ChainsProps = {
 
 export const Chains: React.FC<ChainsProps> = (): JSX.Element => {
   return (
-    <div className="chains" id="supported_chains">
+    <div className="chains">
       <h1 className="chains-heading">Blockchains That We Support</h1>
       <div className="chains-container">
         <Chain name="Ethereum Mainnet" imageURL={ethLogo} />
