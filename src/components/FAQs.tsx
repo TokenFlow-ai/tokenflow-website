@@ -16,7 +16,7 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
 
     setTimeout(() => {
       setCopiedEthUsdt(false);
-    }, 3000);
+    }, 2000);
   };
 
   const handleSetCopiedBtc = (): void => {
@@ -24,7 +24,7 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
 
     setTimeout(() => {
       setCopiedBtc(false);
-    }, 3000);
+    }, 2000);
   };
 
   return (
@@ -93,7 +93,7 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
             mainnet, Arbitrum One, Optimism, Polygon (PoS chain and zkEVM),
             zkSync Era, BNB Smart Chain (BSC), Avalanche C-Chain and Fantom
             Opera. In addition to these, we support and can build smart
-            contracts for you on 80+ of the{" "}
+            contracts for you on 85+ of the{" "}
             <a
               className="faq-link"
               href="/evm_networks.pdf"

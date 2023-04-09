@@ -44,7 +44,7 @@ export const Chains: React.FC<ChainsProps> = (): JSX.Element => {
               }}
               title="List of EVM Compatible Networks"
             >
-              80+ Other EVM Chains
+              85+ Other EVM Chains
             </a>
           }
           imageURL={evmLogo}
