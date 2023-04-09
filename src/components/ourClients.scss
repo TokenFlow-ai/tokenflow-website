@@ -1,4 +1,34 @@
 @import "../variables.scss";
 
-.our-clients-container {
+.our-clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 5px auto -42px;
+
+  .our-clients-title {
+    margin: 90px 0 38px;
+    font-weight: bold;
+    font-size: 2.75em;
+
+    @media screen and (max-width: 992px) {
+      font-size: 2em;
+    }
+  }
+
+  .our-clients-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 12px;
+
+    @media screen and (max-width: 1111px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media screen and (max-width: 800px) {
+      grid-template-columns: 1fr;
+    }
+  }
 }

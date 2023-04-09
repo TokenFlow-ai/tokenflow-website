@@ -1,6 +1,6 @@
 import React from "react";
 import { Hero } from "./Hero";
-import { OurClients } from "./OurClients";
+// import { OurClients } from "./OurClients";
 import { WhyUs } from "./WhyUs";
 import { OurServices } from "./OurServices";
 import { Testimonials } from "./Testimonials";
@@ -19,7 +19,7 @@ export const HomePage: React.FC<HomePageProps> = (): JSX.Element => {
       <Hero />
       <WhyUs />
       <OurServices />
-      <OurClients />
+      {/* <OurClients /> */}
       <Testimonials />
       <Stats />
       <TheTeam />

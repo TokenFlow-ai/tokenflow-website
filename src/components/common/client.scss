@@ -1,0 +1,16 @@
+@import "../../variables.scss";
+
+.client {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 60px 40px;
+
+  .client-link {
+    .client-logo {
+      width: 90px;
+      height: 90px;
+    }
+  }
+}

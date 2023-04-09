@@ -18,6 +18,7 @@ export const Chain: React.FC<ChainProps> = ({
       <img
         src={imageURL}
         alt={name as string}
+        title={name as string}
         width={90}
         height={90}
         className="chain-image"

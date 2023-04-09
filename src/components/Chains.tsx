@@ -7,7 +7,7 @@ import opLogo from "../assets/op_logo.png";
 import maticLogo from "../assets/matic_logo.png";
 import polygonZkEVMLogo from "../assets/polygon_zkevm_logo.jpeg";
 import zkSyncLogo from "../assets/zksync_logo.png";
-// import starkNetLogo from "../assets/starknet_logo.png";
+import starkNetLogo from "../assets/starknet_logo.png";
 import bnbLogo from "../assets/bnb_logo.png";
 import avaxLogo from "../assets/avax_logo.png";
 import ftmLogo from "../assets/ftm_logo.png";
@@ -28,7 +28,7 @@ export const Chains: React.FC<ChainsProps> = (): JSX.Element => {
         <Chain name="Polygon PoS" imageURL={maticLogo} />
         <Chain name="Polygon zkEVM" imageURL={polygonZkEVMLogo} />
         <Chain name="zkSync Era" imageURL={zkSyncLogo} />
-        {/* <Chain name="StarkNet" imageURL={starkNetLogo} /> */}
+        <Chain name="StarkNet" imageURL={starkNetLogo} />
         <Chain name="BNB Smart Chain" imageURL={bnbLogo} />
         <Chain name="Avalanche C-Chain" imageURL={avaxLogo} />
         <Chain name="Fantom Opera" imageURL={ftmLogo} />
