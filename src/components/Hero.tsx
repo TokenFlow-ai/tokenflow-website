@@ -36,7 +36,7 @@ export const Hero: React.FC<HeroProps> = (): JSX.Element => {
 
       <div className="intro-video">
         <iframe
-          src="https://www.youtube.com/embed/NpEaa2P7qZI?autoplay=1&mute=1"
+          src="https://www.youtube.com/embed/nE7oMZyfsbY?autoplay=1&mute=1"
           title="TokenFlow Explainer Video"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

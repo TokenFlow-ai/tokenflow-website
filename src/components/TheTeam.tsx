@@ -2,7 +2,7 @@ import React from "react";
 import "./theTeam.scss";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import mihailo from "../assets/mihailo.png";
+import mihailo from "../assets/mihailo_small.png";
 import andela from "../assets/andela_small.png";
 
 type TheTeamProps = {

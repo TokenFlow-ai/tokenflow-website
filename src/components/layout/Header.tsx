@@ -8,7 +8,7 @@ import clsx from "clsx";
 import { makeStyles } from "@material-ui/core/styles";
 import MenuIcon from "@material-ui/icons/Menu";
 import Button from "@material-ui/core/Button";
-import transparentSVGFavicon from "../../assets/new_logo_transparent.png";
+import transparentSVGFavicon from "../../assets/logo_transparent.png";
 import { PopupButton } from "react-calendly";
 
 type HeaderProps = {
