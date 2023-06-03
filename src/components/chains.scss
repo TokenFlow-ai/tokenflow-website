@@ -30,20 +30,9 @@
   grid-auto-flow: row dense;
   justify-content: center;
 
-  @media screen and (min-width: 1111px) {
-    & > :nth-last-child(-n + 3) {
-      position: relative;
-      left: 140px;
-    }
-  }
 
   @media screen and (min-width: 800px) and (max-width: 1111px) {
     grid-template-columns: repeat(2, 1fr);
-
-    & > :nth-child(11) {
-      grid-column: 1 / span 2;
-      justify-self: center;
-    }
   }
 
   @media screen and (max-width: 800px) {

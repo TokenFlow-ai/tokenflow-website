@@ -76,7 +76,7 @@ export const Header: React.FC<HeaderProps> = (): JSX.Element => {
             Contact
           </a>
           <button
-            className="btn shadow-btn header-btn mobile-header-btn"
+            className="btn shadow-btn header-btn"
             type="button"
             style={{
               width: "160px",
@@ -91,7 +91,7 @@ export const Header: React.FC<HeaderProps> = (): JSX.Element => {
               className="btn-link bold header-btn text-center bold"
               style={{ fontWeight: "bold", textAlign: "center", margin: "0" }}
             >
-              Schedule a FREE Call
+              Let's Talk
             </a>
           </button>
         </List>
@@ -173,7 +173,7 @@ export const Header: React.FC<HeaderProps> = (): JSX.Element => {
             <PopupButton
               url="https://calendly.com/tokenflow"
               rootElement={document.getElementById("root") as HTMLElement}
-              text="Schedule a FREE Call"
+              text="Let's Talk"
               className="btn shadow-btn header-btn"
             />
           </div>

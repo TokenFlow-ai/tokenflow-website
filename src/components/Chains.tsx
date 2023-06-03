@@ -11,6 +11,7 @@ import starkNetLogo from "../assets/starknet_logo.png";
 import bnbLogo from "../assets/bnb_logo.png";
 import avaxLogo from "../assets/avax_logo.png";
 import ftmLogo from "../assets/ftm_logo.png";
+import celoLogo from "../assets/celo_logo.png";
 import evmLogo from "../assets/microchip.png";
 
 type ChainsProps = {
@@ -32,6 +33,7 @@ export const Chains: React.FC<ChainsProps> = (): JSX.Element => {
         <Chain name="BNB Smart Chain" imageURL={bnbLogo} />
         <Chain name="Avalanche C-Chain" imageURL={avaxLogo} />
         <Chain name="Fantom Opera" imageURL={ftmLogo} />
+        <Chain name="Celo" imageURL={celoLogo} />
         <Chain
           name={
             <a

@@ -39,31 +39,7 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
         Frequently Asked Questions
       </h1>
       <FAQItem
-        question="1.) What is a smart contract?"
-        answer={
-          <span>
-            <strong>A smart contract</strong> is a computer program or a
-            transaction protocol that is intended to automatically execute,
-            control or document events and actions according to the terms of a
-            contract or an agreement.
-          </span>
-        }
-      />
-      <FAQItem
-        question="2.) What are the benefits of using smart contracts?"
-        answer={
-          <span>
-            Smart contracts are{" "}
-            <strong>
-              transparent, immutable, and can be executed automatically,
-            </strong>{" "}
-            which can reduce transaction times, minimize the need for
-            intermediaries, and lower costs.
-          </span>
-        }
-      />
-      <FAQItem
-        question="3.) What types of smart contracts do you build?"
+        question="1.) What types of smart contracts do you build?"
         answer={
           <span>
             <strong>
@@ -86,7 +62,7 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
         }
       />
       <FAQItem
-        question="4.) Which blockchains do you support?"
+        question="2.) Which blockchains do you support?"
         answer={
           <span>
             <strong>Our primary supported blockchains include:</strong> Ethereum
@@ -107,25 +83,7 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
         }
       />
       <FAQItem
-        question="5.) Do you use AI in your smart contract development process, and if so, how?"
-        answer={
-          <span>
-            Yes, we use AI in our smart contract development process to automate
-            certain tasks and improve efficiency. This includes using{" "}
-            <strong>machine learning</strong> to analyze data and predict how
-            the contract will behave once deployed, and using{" "}
-            <strong>natural language processing</strong> to analyze smart
-            contract code and generate better tests and documentation for the
-            contracts.
-            <br /> <br />
-            While AI is a helpful tool, we still rely on{" "}
-            <strong>human expertise</strong> to ensure the final product meets
-            our clients' needs and is <strong>of the highest quality.</strong>
-          </span>
-        }
-      />
-      <FAQItem
-        question="6.) Which payment methods do you accept?"
+        question="3.) Which payment methods do you accept?"
         answer={
           <span>
             As a crypto-native company,{" "}
@@ -203,22 +161,22 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
         }
       />
       <FAQItem
-        question="7.) What is the payment structure for your smart contract development services?"
+        question="4.) What is the payment structure for your smart contract development services?"
         answer={
           <span>
             Our payment structure is{" "}
-            <strong>30% upfront and 70% after the project is completed</strong>{" "}
+            <strong>50% upfront and 50% after the project is completed</strong>{" "}
             to your satisfaction.
             <br /> <br />
             This structure ensures that we have the resources necessary to start
-            the project, while also giving you the peace of mind that the
-            majority of the payment is due only after you are{" "}
+            the project, while also giving you the peace of mind that the rest
+            of the payment is due only after you are{" "}
             <strong>satisfied with the final product.</strong>
           </span>
         }
       />
       <FAQItem
-        question="8.) What is your typical project delivery time?"
+        question="5.) What is your typical project delivery time?"
         answer={
           <span>
             The project delivery time varies depending on the complexity of the
@@ -239,7 +197,7 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
         }
       />
       <FAQItem
-        question="9.) Is there an option to get the faster service delivery?"
+        question="6.) Is there an option to get the faster service delivery?"
         answer={
           <span>
             Yes,{" "}
@@ -252,16 +210,17 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
         }
       />
       <FAQItem
-        question="10.) Are there any additional fees or charges?"
+        question="7.) Are there any additional fees or charges?"
         answer={
           <span>
-            For the <strong>Ethereum mainnet contract development,</strong> we
-            typically charge an additional{" "}
+            We typically charge{" "}
             <strong>
-              fee of up to $1,000 per contract to cover the gas costs
+              a gas fee rebate for the projects which involve Ethereum mainnet
+              smart contract development.
             </strong>{" "}
-            associated with the contract deployment.
-            <br /> <br />
+            This fee is charged in order to cover the gas costs of the
+            deployment, and the fee amount is verifiable on blockchain
+            explorers. <br /> <br />
             Apart from that,{" "}
             <strong>there are no additional fees or charges,</strong> and all
             costs will be agreed upon before the project starts.
@@ -269,7 +228,7 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
         }
       />
       <FAQItem
-        question="11.) Do you have a referral program currently active?"
+        question="8.) Do you have a referral program currently active?"
         answer={
           <span>
             Yes, we have a referral program for our smart contract development
@@ -284,12 +243,22 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
         }
       />
       <FAQItem
-        question="12.) Are the smart contracts you develop audited, tested and secure?"
+        question="9.) Are the smart contracts you develop audited, tested and secure?"
         answer={
           <span>
             Even though we are not an auditing firm,{" "}
             <strong>we take security very seriously</strong> and do our best to
-            ensure that the contracts we develop are secure and bug-free.{" "}
+            ensure that{" "}
+            <a
+              href="/our_contracts.pdf"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="faq-link"
+              title="List of Smart Contracts Developed by TokenFlow"
+            >
+              the smart contracts that we develop
+            </a>{" "}
+            are secure and bug-free.{" "}
             <strong>We offer 100% test coverage</strong> for all of the
             contracts that we develop, which means that we test every single
             line of code.
@@ -305,7 +274,7 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
         }
       />
       <FAQItem
-        question="13.) I haven't found an answer to my question. Where can I get help?"
+        question="10.) I haven't found an answer to my question. Where can I get help?"
         answer={
           <span>
             You can always contact us directly via email at{" "}

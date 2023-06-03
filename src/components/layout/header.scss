@@ -197,12 +197,12 @@ input {
   height: 50px !important;
   font-size: 18px !important;
   margin-right: 115px;
-  width: 215px;
+  width: 150px !important;
 
-  @media screen and (max-width: 767px) {
-    width: 195px !important;
-    font-size: 16px !important;
-  }
+  // @media screen and (max-width: 767px) {
+  //   font-size: 16px !important;
+  //   margin-right: 0px;
+  // }
 }
 
 .nav-link-mobile {
