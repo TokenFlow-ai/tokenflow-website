@@ -26,10 +26,6 @@ export const OurServices: React.FC<OurServicesProps> = (): JSX.Element => {
 
             <h2 className="pricing-plan-title">Token Development</h2>
 
-            <p className="plan-price-container price-card-1">
-              <span className="plan-price">starting from $5,000</span>{" "}
-            </p>
-
             <div className="plan-features">
               <p className="plan-feature">
                 <span className="pricing-tick">✔</span> Custom-built token smart
@@ -51,9 +47,6 @@ export const OurServices: React.FC<OurServicesProps> = (): JSX.Element => {
 
             <h2 className="pricing-plan-title">NFT Development</h2>
 
-            <p className="plan-price-container">
-              <span className="plan-price">starting from $10,000</span>{" "}
-            </p>
             <div className="plan-features">
               <p className="plan-feature">
                 <span className="pricing-tick pricing-tick">✔</span>{" "}
@@ -74,10 +67,6 @@ export const OurServices: React.FC<OurServicesProps> = (): JSX.Element => {
             />
 
             <h2 className="pricing-plan-title">Custom Development</h2>
-
-            <p className="plan-price-container">
-              <span className="plan-price">starting from $10,000</span>{" "}
-            </p>
 
             <div className="plan-features">
               <p className="plan-feature">
