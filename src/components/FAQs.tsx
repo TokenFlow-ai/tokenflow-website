@@ -53,11 +53,12 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
               href="/contract_types.pdf"
               rel="noopener noreferrer"
               target="_blank"
-              title="The Full List of Custom Smart Contract Types"
+              title="Smart Contract Types Supported by TokenFlow"
             >
-              the full list of smart contract types
+              the list of 80+ smart contract types
             </a>{" "}
-            that we can build for you. If you can imagine it, we can build it!
+            that we can build for you. We love challenges and are always eager
+            to help you out!
           </span>
         }
       />
@@ -66,18 +67,18 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
         answer={
           <span>
             <strong>Our primary supported blockchains include:</strong> Ethereum
-            mainnet, Arbitrum One, Optimism, Polygon (PoS chain and zkEVM),
-            zkSync Era, BNB Smart Chain (BSC), Avalanche C-Chain and Fantom
-            Opera. In addition to these, we support and can build smart
-            contracts for you on 85+ of the{" "}
+            mainnet, Arbitrum One, Optimism, Polygon, Polygon zkEVM, zkSync Era,
+            StarkNet, BNB Smart Chain (BSC), Avalanche C-Chain, Fantom and Celo.
+            In addition to these, we support and can build smart contracts for
+            you on{" "}
             <a
               className="faq-link"
-              href="/evm_networks.pdf"
+              href="/supported_chains.pdf"
               rel="noopener noreferrer"
               target="_blank"
-              title="List of EVM Compatible Networks"
+              title="Blockchains Supported by TokenFlow"
             >
-              most popular EVM compatible networks.
+              100+ other blockchains.
             </a>
           </span>
         }
@@ -151,12 +152,17 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
             <strong>
               We accept ETH and USDT on any of the following networks:
             </strong>{" "}
-            Ethereum Mainnet, Arbitrum One, Optimism, Polygon (PoS chain and
-            zkEVM), zkSync Era, BNB Smart Chain (BSC), Avalanche C-Chain and
-            Fantom Opera.{" "}
+            Ethereum Mainnet, Arbitrum One, Optimism, Polygon, Polygon zkEVM,
+            zkSync Era, BNB Smart Chain (BSC), Avalanche C-Chain, Fantom and
+            Celo.{" "}
             <strong>
               As for BTC , we accept it on the Bitcoin network only.
             </strong>
+            <br /> <br />
+            In case you wanted to pay using the{" "}
+            <strong>traditional bank transfer,</strong> we can provide you with
+            our bank account details upon your request, during the onboarding
+            process.
           </span>
         }
       />
@@ -181,7 +187,7 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
           <span>
             The project delivery time varies depending on the complexity of the
             contracts and other factors. In general,{" "}
-            <strong>typical project delivery takes 3-6 weeks.</strong> We offer
+            <strong>typical project delivery takes 4-8 weeks.</strong> We offer
             a 30-minute free consultation call to provide a better estimate of
             the development time. You can{" "}
             <a
@@ -190,9 +196,9 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
               rel="noopener noreferrer"
               target="_blank"
             >
-              schedule it here
+              schedule the call
             </a>{" "}
-            at any time.
+            here at any time.
           </span>
         }
       />
@@ -202,7 +208,7 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
           <span>
             Yes,{" "}
             <strong>
-              we can deliver your project in as little as 1-2 weeks
+              we can deliver your project in as little as 2-4 weeks
             </strong>{" "}
             with the fast-track delivery option, which is 50% more expensive
             than the originally agreed upon project price.
@@ -215,8 +221,8 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
           <span>
             We typically charge{" "}
             <strong>
-              a gas fee rebate for the projects which involve Ethereum mainnet
-              smart contract development.
+              a gas fee rebate for the projects which involve deploying smart
+              contracts on the Ethereum mainnet.
             </strong>{" "}
             This fee is charged in order to cover the gas costs of the
             deployment, and the fee amount is verifiable on blockchain
@@ -248,7 +254,7 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
           <span>
             Even though we are not an auditing firm,{" "}
             <strong>we take security very seriously</strong> and do our best to
-            ensure that{" "}
+            ensure that the{" "}
             <a
               href="/our_contracts.pdf"
               rel="noopener noreferrer"
@@ -256,7 +262,7 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
               className="faq-link"
               title="List of Smart Contracts Developed by TokenFlow"
             >
-              the smart contracts that we develop
+              smart contracts that we develop
             </a>{" "}
             are secure and bug-free.{" "}
             <strong>We offer 100% test coverage</strong> for all of the

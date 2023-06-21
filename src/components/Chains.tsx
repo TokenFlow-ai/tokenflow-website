@@ -26,27 +26,27 @@ export const Chains: React.FC<ChainsProps> = (): JSX.Element => {
         <Chain name="Ethereum Mainnet" imageURL={ethLogo} />
         <Chain name="Arbitrum One" imageURL={arbLogo} />
         <Chain name="Optimism" imageURL={opLogo} />
-        <Chain name="Polygon PoS" imageURL={maticLogo} />
+        <Chain name="Polygon" imageURL={maticLogo} />
         <Chain name="Polygon zkEVM" imageURL={polygonZkEVMLogo} />
         <Chain name="zkSync Era" imageURL={zkSyncLogo} />
         <Chain name="StarkNet" imageURL={starkNetLogo} />
         <Chain name="BNB Smart Chain" imageURL={bnbLogo} />
-        <Chain name="Avalanche C-Chain" imageURL={avaxLogo} />
-        <Chain name="Fantom Opera" imageURL={ftmLogo} />
+        <Chain name="Avalanche" imageURL={avaxLogo} />
+        <Chain name="Fantom" imageURL={ftmLogo} />
         <Chain name="Celo" imageURL={celoLogo} />
         <Chain
           name={
             <a
-              href="/evm_networks.pdf"
+              href="/supported_chains.pdf"
               rel="noopener noreferrer"
               target="_blank"
               style={{
                 color: "#06f",
                 textDecoration: "underline",
               }}
-              title="List of EVM Compatible Networks"
+              title="Blockchains Supported by TokenFlow"
             >
-              85+ Other EVM Chains
+              100+ Other Chains
             </a>
           }
           imageURL={evmLogo}

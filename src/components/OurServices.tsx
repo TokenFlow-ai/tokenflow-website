@@ -28,7 +28,7 @@ export const OurServices: React.FC<OurServicesProps> = (): JSX.Element => {
 
             <div className="plan-features">
               <p className="plan-feature">
-                <span className="pricing-tick">✔</span> Custom-built token smart
+                <span className="pricing-tick">✔</span> Custom-made token smart
                 contract for your project
               </p>
               <p className="plan-feature">
@@ -49,8 +49,8 @@ export const OurServices: React.FC<OurServicesProps> = (): JSX.Element => {
 
             <div className="plan-features">
               <p className="plan-feature">
-                <span className="pricing-tick pricing-tick">✔</span>{" "}
-                Custom-built NFT smart contract for your project
+                <span className="pricing-tick pricing-tick">✔</span> Custom-made
+                NFT smart contract for your project
               </p>
               <p className="plan-feature">
                 <span className="pricing-tick pricing-tick">✔</span> Supported
@@ -70,15 +70,15 @@ export const OurServices: React.FC<OurServicesProps> = (): JSX.Element => {
 
             <div className="plan-features">
               <p className="plan-feature">
-                <span className="pricing-tick">✔</span>{" "}
+                <span className="pricing-tick">✔</span> 80+ types of{" "}
                 <a
                   href="/contract_types.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="pricing-link"
-                  title="The Full List of Custom Smart Contract Types"
+                  title="Smart Contract Types Supported by TokenFlow"
                 >
-                  60+ types of custom smart contracts
+                  custom smart contracts
                 </a>{" "}
                 that we can build for you
               </p>
@@ -91,8 +91,8 @@ export const OurServices: React.FC<OurServicesProps> = (): JSX.Element => {
         </div>
 
         <p className="our-services-intro-text">
-          Your satisfaction is our top priority, and that's why we offer the
-          following benefits with each one of our services:
+          We provide full-service smart contract development with benefits which
+          include:
         </p>
 
         <div className="intro-features">
@@ -119,8 +119,8 @@ export const OurServices: React.FC<OurServicesProps> = (): JSX.Element => {
               project progress
             </p>
             <p className="intro-feature">
-              <span className="pricing-tick">✔</span> A free code revision in
-              case of any issues
+              <span className="pricing-tick">✔</span> Free code revision in case
+              of any issues
             </p>
           </div>
         </div>

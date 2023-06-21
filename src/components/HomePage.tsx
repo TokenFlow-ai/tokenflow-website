@@ -17,7 +17,7 @@ type HomePageProps = {
 export const HomePage: React.FC<HomePageProps> = (): JSX.Element => {
   return (
     <React.Fragment>
-      {/* Dark mode for the entire website, update contract list, EVM chains list, developed contracts list */}
+      {/* Dark mode for the entire website & update the developed contracts list to reach 200+ over time */}
       <Hero />
       <WhyUs />
       <OurServices />

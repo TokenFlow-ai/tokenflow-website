@@ -16,7 +16,7 @@ export const Stats: React.FC<StatsProps> = (): JSX.Element => {
           <div className="stat-circle-title">Contracts Developed</div>
           <div className="stat-circle-number">
             <CountUp
-              end={150}
+              end={200}
               duration={7}
               suffix="+"
               enableScrollSpy
@@ -29,7 +29,7 @@ export const Stats: React.FC<StatsProps> = (): JSX.Element => {
           <div className="stat-circle-title">Chains Supported</div>
           <div className="stat-circle-number">
             <CountUp
-              end={90}
+              end={120}
               duration={7}
               suffix="+"
               enableScrollSpy
@@ -42,7 +42,7 @@ export const Stats: React.FC<StatsProps> = (): JSX.Element => {
           <div className="stat-circle-title">Contract Types Offered</div>
           <div className="stat-circle-number">
             <CountUp
-              end={60}
+              end={80}
               duration={7}
               suffix="+"
               enableScrollSpy
