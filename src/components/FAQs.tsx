@@ -3,6 +3,8 @@ import { copyToClipboard } from "../utils/utils";
 import { FAQItem } from "./common/FAQItem";
 import "./faqs.scss";
 
+// ADD TO FAQ FOR THE CROSS-CHAIN INTEGRATIONS, LIKE BRIDGES (LAYERZERO BASED)
+
 type FAQsProps = {
   children?: React.ReactNode;
 };
@@ -10,6 +12,7 @@ type FAQsProps = {
 export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
   const [copiedEthUsdt, setCopiedEthUsdt] = useState<boolean>(false);
   const [copiedBtc, setCopiedBtc] = useState<boolean>(false);
+  const [copiedTronUsdt, setCopiedTronUsdt] = useState<boolean>(false);
 
   const handleSetCopiedEthUsdt = (): void => {
     setCopiedEthUsdt(true);
@@ -24,6 +27,14 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
 
     setTimeout(() => {
       setCopiedBtc(false);
+    }, 2000);
+  };
+
+  const handleSetCopiedTronUsdt = (): void => {
+    setCopiedTronUsdt(true);
+
+    setTimeout(() => {
+      setCopiedTronUsdt(false);
     }, 2000);
   };
 
@@ -159,10 +170,39 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
               As for BTC , we accept it on the Bitcoin network only.
             </strong>
             <br /> <br />
+            Also, due to popular demand,{" "}
+            <strong>
+              we've introduced the USDT payments on the Tron (TRC20) network
+              starting from June 1st, 2023,
+            </strong>{" "}
+            where our address is as follows:{" "}
+            <span
+              onClick={() => {
+                copyToClipboard("TBpscrTjwGMRT9aH4PzWLFBLBjR2RJAyES");
+                handleSetCopiedTronUsdt();
+              }}
+              className="payment-address"
+            >
+              TBpscrTjwGMRT9aH4PzWLFBLBjR2RJAyES
+            </span>{" "}
+            {copiedTronUsdt ? (
+              <span
+                style={{
+                  color: "#28a745",
+                  marginLeft: "10px",
+                  fontWeight: "bold",
+                }}
+              >
+                ✔ Copied to Clipboard!
+              </span>
+            ) : (
+              <span>(click on the address to copy).</span>
+            )}
+            <br /> <br />
             In case you wanted to pay using the{" "}
             <strong>traditional bank transfer,</strong> we can provide you with
-            our bank account details upon your request, during the onboarding
-            process.
+            our bank account details upon your request, as a part of the
+            onboarding process.
           </span>
         }
       />

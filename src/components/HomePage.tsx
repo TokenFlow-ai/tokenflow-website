@@ -4,6 +4,7 @@ import { Hero } from "./Hero";
 import { WhyUs } from "./WhyUs";
 import { OurServices } from "./OurServices";
 import { OurClients } from "./OurClients";
+import { Partners } from "./Partners";
 import { Testimonials } from "./Testimonials";
 import { Stats } from "./Stats";
 import { TheTeam } from "./TheTeam";
@@ -19,15 +20,17 @@ export const HomePage: React.FC<HomePageProps> = (): JSX.Element => {
     <React.Fragment>
       {/* Dark mode for the entire website & update the developed contracts list to reach 200+ over time */}
       <Hero />
-      <WhyUs />
-      <OurServices />
       {/* <OurClients /> */}
       {/* Entire section like on Asteria labs' website */}
+      <WhyUs />
+      <OurServices />
       <Testimonials /> {/* Entire section: cards + carousel */}
-      <Stats /> {/* Stats circles animations like on promo video */}
+      <Stats />
+      {/* Stats circles animations like on promo video */}
       <TheTeam />
-      <FAQs />
+      <Partners />
       <Chains />
+      <FAQs />
     </React.Fragment>
   );
 };

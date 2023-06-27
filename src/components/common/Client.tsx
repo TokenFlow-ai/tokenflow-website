@@ -6,15 +6,21 @@ type ClientProps = {
   name: string;
   imageURL: string;
   targetURL: string;
+  style?: React.CSSProperties;
+  width?: number;
+  height?: number;
 };
 
 export const Client: React.FC<ClientProps> = ({
   name,
   imageURL,
   targetURL,
+  style,
+  width,
+  height,
 }): JSX.Element => {
   return (
-    <div className="client">
+    <div className="client" style={style}>
       <a
         href={targetURL}
         rel="noopener noreferrer"
@@ -26,8 +32,8 @@ export const Client: React.FC<ClientProps> = ({
           src={imageURL}
           alt={name}
           className="client-logo"
-          width={90}
-          height={90}
+          width={width || 90}
+          height={height || 90}
         />
       </a>
     </div>

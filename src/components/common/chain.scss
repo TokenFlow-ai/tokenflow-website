@@ -13,4 +13,12 @@
   text-align: center;
   margin: 0;
   margin-top: 15px;
+
+  .chain-link {
+    color: #000;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }

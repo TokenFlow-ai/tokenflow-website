@@ -21,19 +21,59 @@ type ChainsProps = {
 export const Chains: React.FC<ChainsProps> = (): JSX.Element => {
   return (
     <div className="chains">
-      <h1 className="chains-heading">Blockchains That We Support</h1>
+      <h1 className="chains-heading">Supported Blockchains</h1>
       <div className="chains-container">
-        <Chain name="Ethereum Mainnet" imageURL={ethLogo} />
-        <Chain name="Arbitrum One" imageURL={arbLogo} />
-        <Chain name="Optimism" imageURL={opLogo} />
-        <Chain name="Polygon" imageURL={maticLogo} />
-        <Chain name="Polygon zkEVM" imageURL={polygonZkEVMLogo} />
-        <Chain name="zkSync Era" imageURL={zkSyncLogo} />
-        <Chain name="StarkNet" imageURL={starkNetLogo} />
-        <Chain name="BNB Smart Chain" imageURL={bnbLogo} />
-        <Chain name="Avalanche" imageURL={avaxLogo} />
-        <Chain name="Fantom" imageURL={ftmLogo} />
-        <Chain name="Celo" imageURL={celoLogo} />
+        <Chain
+          name="Ethereum Mainnet"
+          imageURL={ethLogo}
+          targetURL="https://ethereum.org"
+        />
+        <Chain
+          name="Arbitrum One"
+          imageURL={arbLogo}
+          targetURL="https://arbitrum.io"
+        />
+        <Chain
+          name="Optimism"
+          imageURL={opLogo}
+          targetURL="https://optimism.io"
+        />
+        <Chain
+          name="Polygon"
+          imageURL={maticLogo}
+          targetURL="https://polygon.technology"
+        />
+        <Chain
+          name="Polygon zkEVM"
+          imageURL={polygonZkEVMLogo}
+          targetURL="https://polygon.technology/polygon-zkevm"
+        />
+        <Chain
+          name="zkSync Era"
+          imageURL={zkSyncLogo}
+          targetURL="https://zksync.io"
+        />
+        <Chain
+          name="StarkNet"
+          imageURL={starkNetLogo}
+          targetURL="https://starknet.io"
+        />
+        <Chain
+          name="BNB Smart Chain"
+          imageURL={bnbLogo}
+          targetURL="https://www.bnbchain.org/en/smartChain"
+        />
+        <Chain
+          name="Avalanche"
+          imageURL={avaxLogo}
+          targetURL="https://www.avax.network"
+        />
+        <Chain
+          name="Fantom"
+          imageURL={ftmLogo}
+          targetURL="https://fantom.foundation"
+        />
+        <Chain name="Celo" imageURL={celoLogo} targetURL="https://celo.org/" />
         <Chain
           name={
             <a
@@ -50,6 +90,8 @@ export const Chains: React.FC<ChainsProps> = (): JSX.Element => {
             </a>
           }
           imageURL={evmLogo}
+          targetURL="/supported_chains.pdf"
+          linkTitle="Blockchains Supported by TokenFlow"
         />
       </div>
     </div>
