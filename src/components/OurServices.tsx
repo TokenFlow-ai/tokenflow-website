@@ -83,8 +83,8 @@ export const OurServices: React.FC<OurServicesProps> = (): JSX.Element => {
                 that we can build for you
               </p>
               <p className="plan-feature">
-                <span className="pricing-tick">✔</span> Your vision, our
-                expertise: If you can imagine it, we can build it!
+                <span className="pricing-tick">✔</span> Seamless cross-chain
+                integrations and interoperability for an unrivaled UX
               </p>
             </div>
           </div>

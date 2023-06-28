@@ -1,4 +1,85 @@
 @import "../variables.scss";
 
 .testimonials-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.slick-center .testimonial-card {
+  transform: scale(1.2);
+  transition: transform 0.5s;
+}
+
+.testimonial-card {
+  transition: transform 0.5s;
+}
+
+
+/* App.css */
+
+.testimonial-card {
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s, box-shadow 0.5s;
+    margin: 0 40px;
+    height: 400px;
+}
+
+.slick-center .testimonial-card {
+    transform: scale(1.2);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Customizing the arrows */
+.slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #000;
+    font-weight: bold;
+}
+
+.slick-prev {
+    left: -25px;
+    color: #000;
+    font-weight: bold;
+}
+
+.slick-next {
+    right: -25px;
+    color: #000 !important;
+    font-weight: bold;
+}
+
+.slick-prev:after, .slick-next:after {
+    content: '⟨'; /* Unicode character for left-pointing arrow */
+    display: inline-block;
+    font-size: 20px;
+    opacity: 0.75;
+    transition: opacity 0.3s;
+}
+
+.slick-next:after {
+    content: '⟩'; /* Unicode character for right-pointing arrow */
+}
+
+.slick-prev:hover:after, .slick-prev:focus:after,
+.slick-next:hover:after, .slick-next:focus:after {
+    opacity: 1;
+}
+
+.slick-prev.slick-disabled:after, .slick-next.slick-disabled:after {
+    opacity: 0.25;
 }
