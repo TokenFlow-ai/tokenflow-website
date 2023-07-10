@@ -15,6 +15,7 @@ import majr from "../assets/clients/MAJR.png";
 import longterm from "../assets/clients/longterm.png";
 import scaleroad from "../assets/clients/scaleroad.png";
 import clc from "../assets/clients/clc.png";
+import moonfarm from "../assets/clients/moonfarm.png";
 
 type HomePageProps = {
   children?: React.ReactNode;
@@ -22,20 +23,21 @@ type HomePageProps = {
 
 export const HomePage: React.FC<HomePageProps> = (): JSX.Element => {
   const clients = [
+    { name: "Avix Finance", logo: avix },
+    { name: "LongTerm Finance", logo: longterm },
     { name: "MAJR", logo: majr },
-    { name: "LongTerm Finance", logo: "/path-to-logo-b.png" },
-    { name: "Avix Finance", logo: "/path-to-logo-c.png" },
-    { name: "Cool Lions Club", logo: "/path-to-logo-d.png" },
-    { name: "DVenture DAO", logo: "/path-to-logo-e.png" },
-    { name: "NFT Mintr", logo: "/path-to-logo-f.png" },
-    { name: "ScarceCoin", logo: "/path-to-logo-g.png" },
-    { name: "SolidSwap", logo: "/path-to-logo-h.png" },
-    { name: "MoonFarm", logo: "/path-to-logo-i.png" },
-    { name: "ScaleRoad", logo: "/path-to-logo-j.png" },
-    { name: "MultiSignr", logo: "/path-to-logo-l.png" },
-    { name: "ZK Something 1", logo: "/path-to-logo-m.png" },
-    { name: "ZK Something 2", logo: "/path-to-logo-m.png" },
-    { name: "Web3 Starter Pack", logo: "/path-to-logo-k.png" },
+    { name: "ScaleRoad", logo: scaleroad },
+    { name: "Cool Lions Club", logo: clc },
+    // { name: "DVenture DAO", logo: clc },
+    // { name: "NFT Mintr", logo: clc },
+    // { name: "ScarceCoin", logo: clc },
+    // { name: "SolidSwap", logo: clc },
+    // { name: "MoonFarm", logo: moonfarm },
+    // { name: "MultiSignr", logo: clc },
+    // { name: "Web3 Starter Pack", logo: clc },
+    // { name: "ZK Something", logo: clc },
+    // { name: "Cross Chain Something", logo: clc },
+    // { name: "Layer 3 Something", logo: clc },
   ];
 
   const testimonials = [
@@ -45,14 +47,14 @@ export const HomePage: React.FC<HomePageProps> = (): JSX.Element => {
       text: "TokenFlow nailed it! Avix's on-chain VIX tracking is a seamless perfection. Only they were able to understand our needs and deliver the solution we wanted.",
     },
     {
-      logoURL: majr,
-      projectName: "MAJR, Inc.",
-      text: "TokenFlow accelerated MAJR DAO's launch by building our custom governance & treasury management solutions from the ground up. They're a true partner in our mission to bring DAOs to the masses!",
-    },
-    {
       logoURL: longterm,
       projectName: "LongTerm Finance",
       text: "TokenFlow's mastery in DeFi integrations made ALTS a game-changer for crypto diversification. It's truly a dream come true for long-term focused investors in the altcoin space!",
+    },
+    {
+      logoURL: majr,
+      projectName: "MAJR, Inc.",
+      text: "TokenFlow accelerated MAJR DAO's launch by building our custom governance & treasury management solutions from the ground up. They're a true partner in our mission to bring DAOs to the masses!",
     },
     {
       logoURL: scaleroad,
@@ -68,19 +70,16 @@ export const HomePage: React.FC<HomePageProps> = (): JSX.Element => {
 
   return (
     <React.Fragment>
-      {/* Dark mode for the entire website & update the developed contracts list to reach 200+ over time */}
+      {/* Dark mode for the entire website & update the developed contracts list doc to reach 200+ over time */}
       <Hero />
       {/* <OurClients clients={clients} /> */}
-      {/* Entire section like on Asteria labs' website */}
       <WhyUs />
       <OurServices />
-      {/* <TestimonialCarousel testimonials={testimonials} /> */}
-      {/* Entire section: cards + carousel */}
+      <TestimonialCarousel testimonials={testimonials} />
       <Stats />
       {/* Stats circles animations like on promo video */}
       <TheTeam />
-      {/* <Partners />  */}
-      {/* Reenable this section after all of the partnerships have become official */}
+      <Partners />
       <Chains />
       <FAQs />
     </React.Fragment>

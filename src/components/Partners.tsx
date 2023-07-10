@@ -3,12 +3,13 @@ import "./partners.scss";
 import { Client } from "./common/Client";
 import beosin from "../assets/partners/beosin.png";
 import fasterCapital from "../assets/partners/faster_capital.png";
-import theBloxCo from "../components/misc/TheBlox.svg";
+// import theBloxCo from "../components/misc/TheBlox.svg";
 import startupStack from "../assets/partners/startup_stack.svg";
 import theCryptoRecruiters from "../assets/partners/the_crypto_recruiters.jpeg";
 import miraiDAO from "../assets/partners/mirai_dao.jpeg";
 import quillAudits from "../assets/partners/quill_audits.jpeg";
 import moonstruck from "../components/misc/Moonstruck.svg";
+import dfx from "../assets/partners/dfx.jpeg";
 
 type PartnersProps = {
   children?: React.ReactNode;
@@ -33,7 +34,7 @@ export const Partners: React.FC<PartnersProps> = (): JSX.Element => {
           width={130}
           height={80}
         />
-        <Client
+        {/* <Client
           name="The Blox"
           imageURL={theBloxCo}
           targetURL="https://theblox.co"
@@ -42,7 +43,7 @@ export const Partners: React.FC<PartnersProps> = (): JSX.Element => {
           }}
           width={133}
           height={50}
-        />
+        /> */}
         <Client
           name="Startup Stack"
           imageURL={startupStack}
@@ -74,6 +75,13 @@ export const Partners: React.FC<PartnersProps> = (): JSX.Element => {
           name="Moonstruck"
           imageURL={moonstruck}
           targetURL="https://moonstruck.io"
+          width={150}
+          height={100}
+        />
+        <Client
+          name="DFX"
+          imageURL={dfx}
+          targetURL="https://dfx.swiss"
           width={150}
           height={100}
         />

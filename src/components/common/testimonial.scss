@@ -1,4 +1,17 @@
 @import "../../variables.scss";
 
-.testimonial {
+.testimonial-card {
+    padding: 20px;
+    text-align: center;
+
+    .testimonial-title {
+        margin: 0 0 10px;
+        font-weight: bold;
+        font-size: 1.3em;
+    }
+
+    .testimonial-text {
+        font-style: italic;
+        font-size: 0.95em;
+    }
 }

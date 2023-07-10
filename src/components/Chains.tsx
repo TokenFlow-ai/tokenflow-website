@@ -80,10 +80,7 @@ export const Chains: React.FC<ChainsProps> = (): JSX.Element => {
               href="/supported_chains.pdf"
               rel="noopener noreferrer"
               target="_blank"
-              style={{
-                color: "#06f",
-                textDecoration: "underline",
-              }}
+              className="supported-chains-link"
               title="Blockchains Supported by TokenFlow"
             >
               100+ Other Chains

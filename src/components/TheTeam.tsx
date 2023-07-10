@@ -59,14 +59,14 @@ export const TheTeam: React.FC<TheTeamProps> = (): JSX.Element => {
         <div className="team-member">
           <img className="team-member-image" src={andela} alt="Team Member" />
           <div className="team-member-info">
-            <h3 className="team-member-name">Andela Bobic</h3>
+            <h3 className="team-member-name">Angela Bobic</h3>
             <p className="team-member-position text-muted">
               Head of Business Development
             </p>
             <div className="team-member-socials">
               <a
                 className="team-member-social"
-                href="https://twitter.com/andela_bobic"
+                href="https://twitter.com/angela_bobic"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -74,7 +74,7 @@ export const TheTeam: React.FC<TheTeamProps> = (): JSX.Element => {
               </a>
               <a
                 className="team-member-social"
-                href="https://www.linkedin.com/in/andelabobic"
+                href="https://www.linkedin.com/in/angelabobic"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -82,7 +82,7 @@ export const TheTeam: React.FC<TheTeamProps> = (): JSX.Element => {
               </a>
             </div>
             <div className="team-member-description">
-              Andela's extensive experience in crypto startup scene and
+              Angela's extensive experience in crypto startup scene and
               strategic vision have enabled her to identify new business
               opportunities and develop innovative solutions to meet the needs
               of clients.

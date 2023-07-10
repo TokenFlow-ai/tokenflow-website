@@ -1,9 +1,9 @@
 @import "../variables.scss";
 
 .testimonials-container {
-    width: 100%;
+    width: 85%;
     margin: 0 auto;
-    padding: 30px;
+    padding: 50px 0;
 }
 
 .slick-center .testimonial-card {
@@ -15,8 +15,10 @@
   transition: transform 0.5s;
 }
 
-
-/* App.css */
+.testimonials-title {
+  margin: 40px auto 20px;
+  width: 90%;
+}
 
 .testimonial-card {
     padding: 20px;
@@ -82,4 +84,17 @@
 
 .slick-prev.slick-disabled:after, .slick-next.slick-disabled:after {
     opacity: 0.25;
+}
+
+.slick-slide {
+  height: 90% !important;
+  border: none !important;
+}
+
+.slick-current {
+  font-size: 0.97em;
+}
+
+.slick-slider {
+    height: 100% !important;
 }

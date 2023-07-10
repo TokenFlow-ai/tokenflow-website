@@ -1,105 +1,9 @@
-// import React from "react";
-// import "./ourClients.scss";
-// import { Client } from "./common/Client";
-// import starkNetLogo from "../assets/starknet_logo.png";
-
-// type OurClientsProps = {
-//   children?: React.ReactNode;
-// };
-
-// export const OurClients: React.FC<OurClientsProps> = (): JSX.Element => {
-//   return (
-//     <div className="our-clients">
-//       <h1 className="our-clients-title">Our Clients</h1>
-//       <div className="our-clients-container">
-//         <Client
-//           name="StarkNet"
-//           imageURL={starkNetLogo}
-//           targetURL="https://starknet.io/"
-//         />
-//         <Client
-//           name="StarkNet"
-//           imageURL={starkNetLogo}
-//           targetURL="https://starknet.io/"
-//         />
-//         <Client
-//           name="StarkNet"
-//           imageURL={starkNetLogo}
-//           targetURL="https://starknet.io/"
-//         />
-//         <Client
-//           name="StarkNet"
-//           imageURL={starkNetLogo}
-//           targetURL="https://starknet.io/"
-//         />
-//         <Client
-//           name="StarkNet"
-//           imageURL={starkNetLogo}
-//           targetURL="https://starknet.io/"
-//         />
-//         <Client
-//           name="StarkNet"
-//           imageURL={starkNetLogo}
-//           targetURL="https://starknet.io/"
-//         />
-//         <Client
-//           name="StarkNet"
-//           imageURL={starkNetLogo}
-//           targetURL="https://starknet.io/"
-//         />
-//         <Client
-//           name="StarkNet"
-//           imageURL={starkNetLogo}
-//           targetURL="https://starknet.io/"
-//         />
-//         <Client
-//           name="StarkNet"
-//           imageURL={starkNetLogo}
-//           targetURL="https://starknet.io/"
-//         />
-//         <Client
-//           name="StarkNet"
-//           imageURL={starkNetLogo}
-//           targetURL="https://starknet.io/"
-//         />
-//         <Client
-//           name="StarkNet"
-//           imageURL={starkNetLogo}
-//           targetURL="https://starknet.io/"
-//         />
-//         <Client
-//           name="StarkNet"
-//           imageURL={starkNetLogo}
-//           targetURL="https://starknet.io/"
-//         />
-//         <Client
-//           name="StarkNet"
-//           imageURL={starkNetLogo}
-//           targetURL="https://starknet.io/"
-//         />
-//         <Client
-//           name="StarkNet"
-//           imageURL={starkNetLogo}
-//           targetURL="https://starknet.io/"
-//         />
-//         <Client
-//           name="StarkNet"
-//           imageURL={starkNetLogo}
-//           targetURL="https://starknet.io/"
-//         />
-//       </div>
-//     </div>
-//   );
-// };
-
-// src/ClientSlider.js
-
 import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./ourClients.scss";
-import majr from "../assets/clients/MAJR.png";
+import { useMediaQuery } from "react-responsive";
 
 type Client = {
   name: string;
@@ -113,11 +17,16 @@ type ClientSliderProps = {
 export const OurClients: React.FC<ClientSliderProps> = ({
   clients,
 }): JSX.Element => {
+  const isTablet = useMediaQuery({
+    query: "(min-width: 767px) and (max-width: 992px)",
+  });
+  const isMobile = useMediaQuery({ query: "(max-width: 767px)" });
+
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: isTablet ? 3 : isMobile ? 2 : 5,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,

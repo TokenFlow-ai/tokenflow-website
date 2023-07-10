@@ -17,10 +17,7 @@ export const Testimonial: React.FC<TestimonialProps> = ({
   position,
 }) => {
   return (
-    <div
-      className="testimonial-card"
-      style={{ padding: "20px", textAlign: "center" }}
-    >
+    <div className="testimonial-card">
       <div className="testimonial-logo">
         <img
           src={logoURL}
@@ -35,8 +32,11 @@ export const Testimonial: React.FC<TestimonialProps> = ({
           }}
         />
       </div>
-      <h4>{projectName}</h4>
-      <p style={{ fontStyle: "italic", fontSize: "1em" }}>{`"${text}"`}</p>
+      <h4 className="testimonial-title">{projectName}</h4>
+      <p
+        className="testimonial-text"
+        style={{ fontStyle: "italic", fontSize: "0.95em" }}
+      >{`"${text}"`}</p>
       {/* <h5>{author}</h5>
       <p>{position}</p> */}
     </div>

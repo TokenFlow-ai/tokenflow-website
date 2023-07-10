@@ -3,8 +3,6 @@ import { copyToClipboard } from "../utils/utils";
 import { FAQItem } from "./common/FAQItem";
 import "./faqs.scss";
 
-// ADD TO FAQ FOR THE CROSS-CHAIN INTEGRATIONS, LIKE BRIDGES (LAYERZERO BASED)
-
 type FAQsProps = {
   children?: React.ReactNode;
 };
