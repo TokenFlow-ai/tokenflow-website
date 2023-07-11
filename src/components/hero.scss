@@ -63,6 +63,7 @@
 .intro-screen .intro-text .intro-title {
   font-size: 2.75em;
   font-weight: bold;
+  margin-top: 10px;
 
   @media screen and (max-width: 992px) {
     font-size: 2em;
@@ -72,7 +73,7 @@
 
 @media screen and (max-width: 400px) {
   .intro-title {
-    margin-top: 50px;
+    margin-top: 110px !important;
   }
 }
 

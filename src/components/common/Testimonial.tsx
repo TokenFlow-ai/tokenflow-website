@@ -7,6 +7,8 @@ interface TestimonialProps {
   text: string;
   author?: string;
   position?: string;
+  width?: number;
+  height?: number;
 }
 
 export const Testimonial: React.FC<TestimonialProps> = ({
@@ -15,6 +17,8 @@ export const Testimonial: React.FC<TestimonialProps> = ({
   text,
   author,
   position,
+  width,
+  height,
 }) => {
   return (
     <div className="testimonial-card">
@@ -24,19 +28,13 @@ export const Testimonial: React.FC<TestimonialProps> = ({
           alt={projectName}
           title={projectName}
           style={{
-            width: "80px",
-            height: "80px",
-            borderRadius: "50%",
-            margin: "20px auto 20px",
-            boxShadow: "0 0 10px rgba(0, 0, 0, 0.2)",
+            width: width,
+            height: height,
           }}
         />
       </div>
       <h4 className="testimonial-title">{projectName}</h4>
-      <p
-        className="testimonial-text"
-        style={{ fontStyle: "italic", fontSize: "0.95em" }}
-      >{`"${text}"`}</p>
+      <p className="testimonial-text">{`"${text}"`}</p>
       {/* <h5>{author}</h5>
       <p>{position}</p> */}
     </div>

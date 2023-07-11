@@ -1,13 +1,13 @@
 @import "../variables.scss";
 
 .testimonials-container {
-    width: 85%;
+    width: 80vw;
     margin: 0 auto;
     padding: 50px 0;
 }
 
 .slick-center .testimonial-card {
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition: transform 0.5s;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .testimonials-title {
-  margin: 40px auto 20px;
+  margin: 40px auto -40px;
   width: 90%;
 }
 
@@ -26,11 +26,38 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.5s, box-shadow 0.5s;
     margin: 0 40px;
-    height: 400px;
+    height: 370px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+
+    @media screen and (max-width: 767px) {
+        height: 380px;
+    }
+
+    .testimonial-logo {
+        img {
+            border-radius: 50%;
+            margin: 20px auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            padding: 5px;
+        }
+    }
+
+    .testimonial-title {
+        margin: 0 0 10px;
+        font-weight: bold;
+        font-size: 1.3em;
+    }
+
+    .testimonial-text {
+        font-style: italic;
+        font-size: 0.95em;
+    }
 }
 
 .slick-center .testimonial-card {
-    transform: scale(1.2);
+    transform: scale(1.1);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
@@ -49,15 +76,22 @@
     border: none;
     outline: none;
     background: transparent;
-    color: #000;
+    color: #000 !important;
     font-weight: bold;
+
+    &:hover, &:focus {
+        outline: none;
+        background: transparent;
+        color: #000 !important;
+        font-weight: bold;
+    }
 }
 
-.slick-prev {
-    left: -25px;
-    color: #000;
-    font-weight: bold;
-}
+// .slick-prev {
+//     left: -25px;
+//     color: #000;
+//     font-weight: bold;
+// }
 
 .slick-next {
     right: -25px;
@@ -89,6 +123,7 @@
 .slick-slide {
   height: 90% !important;
   border: none !important;
+  padding: 50px 0;
 }
 
 .slick-current {
@@ -97,4 +132,8 @@
 
 .slick-slider {
     height: 100% !important;
+}
+
+ul.slick-dots {
+    bottom: 45px !important;
 }

@@ -1,17 +1,17 @@
 @import "../variables.scss";
 
-.chains-heading {
-  color: #333333;
+.chains-title {
   font-weight: bold;
-  margin-bottom: 46px !important;
-  margin-top: 40px;
+  margin: 53px 0 46px;
   font-size: 2.75em;
+  width: 90%;
+  text-align: center;
 
   @media screen and (max-width: 992px) {
     font-size: 2em;
     text-align: center;
     margin-bottom: 48px !important;
-    margin-top: 140px !important;
+    margin-top: 40px !important;
   }
 }
 

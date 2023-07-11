@@ -21,7 +21,7 @@ type ChainsProps = {
 export const Chains: React.FC<ChainsProps> = (): JSX.Element => {
   return (
     <div className="chains">
-      <h1 className="chains-heading">Supported Blockchains</h1>
+      <h1 className="chains-title">Supported Blockchains</h1>
       <div className="chains-container">
         <Chain
           name="Ethereum Mainnet"

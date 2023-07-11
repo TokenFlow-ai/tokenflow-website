@@ -12,15 +12,15 @@ interface TestimonialData {
   text: string;
   author?: string;
   position?: string;
+  width?: number;
+  height?: number;
 }
 
-interface TestimonialCarouselProps {
+interface TestimonialsProps {
   testimonials: TestimonialData[];
 }
 
-export const TestimonialCarousel: React.FC<TestimonialCarouselProps> = ({
-  testimonials,
-}) => {
+export const Testimonials: React.FC<TestimonialsProps> = ({ testimonials }) => {
   const isTablet = useMediaQuery({
     query: "(min-width: 767px) and (max-width: 1100px)",
   });
@@ -33,17 +33,14 @@ export const TestimonialCarousel: React.FC<TestimonialCarouselProps> = ({
     slidesToShow: isTablet ? 2 : isMobile ? 1 : 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 400000,
+    autoplaySpeed: 5000,
     centerMode: true,
     centerPadding: "0px",
     arrows: true,
   };
 
   return (
-    <div
-      style={{ width: "100vw", margin: "0 auto", padding: "50px 0" }}
-      className="testimonials-container"
-    >
+    <div className="testimonials-container">
       <h1 className="bold text-center testimonials-title">
         What Our Clients are Saying
       </h1>
@@ -57,6 +54,8 @@ export const TestimonialCarousel: React.FC<TestimonialCarouselProps> = ({
             text={testimonial.text}
             author={testimonial.author}
             position={testimonial.position}
+            width={testimonial.width}
+            height={testimonial.height}
           />
         ))}
       </Slider>

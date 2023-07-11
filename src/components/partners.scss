@@ -6,7 +6,11 @@
   align-items: center;
   flex-direction: column;
   width: 100%;
-  margin: 5px auto 0;
+  margin: 5px auto 7px;
+
+  @media screen and (max-width: 767px) {
+    margin: 5px auto 2px;
+  }
 
   .our-partners-title {
     margin: 60px 0 34px;
@@ -21,7 +25,7 @@
 
   .our-partners-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 12px;
     width: 80%;
 

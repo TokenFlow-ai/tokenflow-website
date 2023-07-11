@@ -197,7 +197,7 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
               <span>(click on the address to copy).</span>
             )}
             <br /> <br />
-            In case you wanted to pay using the{" "}
+            In case you want to pay using the{" "}
             <strong>traditional bank transfer,</strong> we can provide you with
             our bank account details upon your request, as a part of the
             onboarding process.
@@ -209,13 +209,13 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
         answer={
           <span>
             Our payment structure is{" "}
-            <strong>50% upfront and 50% after the project is completed</strong>{" "}
+            <strong>40% upfront and 60% after the project is completed</strong>{" "}
             to your satisfaction.
             <br /> <br />
             This structure ensures that we have the resources necessary to start
-            the project, while also giving you the peace of mind that the rest
-            of the payment is due only after you are{" "}
-            <strong>satisfied with the final product.</strong>
+            the project, while also giving you the peace of mind that the
+            biggest part of the payment is due only after you are{" "}
+            <strong>completely satisfied with the final product.</strong>
           </span>
         }
       />
@@ -225,7 +225,7 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
           <span>
             The project delivery time varies depending on the complexity of the
             contracts and other factors. In general,{" "}
-            <strong>typical project delivery takes 4-8 weeks.</strong> We offer
+            <strong>typical project delivery takes 1-3 months.</strong> We offer
             a 30-minute free consultation call to provide a better estimate of
             the development time. You can{" "}
             <a
@@ -282,7 +282,10 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
             </strong>{" "}
             please feel free to refer them to us. We will be more than happy to
             provide you with{" "}
-            <strong>a 10% discount on your next project with us.</strong>
+            <strong>
+              a 10% referral commission for every project that we get through
+              your referral.
+            </strong>
           </span>
         }
       />

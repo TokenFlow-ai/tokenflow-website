@@ -4,6 +4,19 @@
     padding: 20px;
     text-align: center;
 
+    @media screen and (max-width: 767px) {
+        height: 410px;
+    }
+
+    .testimonial-logo {
+        img {
+            border-radius: 50%;
+            margin: 20px auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            padding: 5px;
+        }
+    }
+
     .testimonial-title {
         margin: 0 0 10px;
         font-weight: bold;

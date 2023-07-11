@@ -6,8 +6,10 @@ import "./ourClients.scss";
 import { useMediaQuery } from "react-responsive";
 
 type Client = {
-  name: string;
+  name?: string;
   logo: string;
+  width?: number;
+  height?: number;
 };
 
 type ClientSliderProps = {
@@ -26,23 +28,31 @@ export const OurClients: React.FC<ClientSliderProps> = ({
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: isTablet ? 3 : isMobile ? 2 : 5,
+    slidesToShow: isTablet ? 4 : isMobile ? 2 : 6,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
   };
 
   return (
-    <div className="slider-container">
+    <div
+      className="slider-container our-clients-container-main"
+      style={{
+        marginTop: isMobile ? "-33px" : "-38px",
+        marginBottom: isMobile ? "-55px" : "-57px",
+      }}
+    >
+      <h1 className="our-clients-title">Experience True Client Satisfaction</h1>
+
       <Slider {...settings}>
         {clients.map((client, index) => (
           <div key={index} className="client">
             <img
               src={client.logo}
               alt={client.name}
-              style={{ width: "100px", height: "100px" }}
+              style={{ width: client.width, height: client.height }}
             />
-            <p>{client.name}</p>
+            <span className="client-name">{client.name}</span>
           </div>
         ))}
       </Slider>

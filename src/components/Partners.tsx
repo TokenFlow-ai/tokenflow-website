@@ -10,6 +10,8 @@ import miraiDAO from "../assets/partners/mirai_dao.jpeg";
 import quillAudits from "../assets/partners/quill_audits.jpeg";
 import moonstruck from "../components/misc/Moonstruck.svg";
 import dfx from "../assets/partners/dfx.jpeg";
+// import alta from "../assets/partners/alta.png";
+import chainstack from "../assets/partners/chainstack.png";
 
 type PartnersProps = {
   children?: React.ReactNode;
@@ -20,6 +22,13 @@ export const Partners: React.FC<PartnersProps> = (): JSX.Element => {
     <div className="our-partners">
       <h1 className="our-partners-title">Our Partners</h1>
       <div className="our-partners-container">
+        <Client
+          name="Chainstack"
+          imageURL={chainstack}
+          targetURL="https://chainstack.com"
+          width={180}
+          height={100}
+        />
         <Client
           name="Beosin"
           imageURL={beosin}
@@ -72,16 +81,16 @@ export const Partners: React.FC<PartnersProps> = (): JSX.Element => {
           height={100}
         />
         <Client
-          name="Moonstruck"
-          imageURL={moonstruck}
-          targetURL="https://moonstruck.io"
+          name="DFX"
+          imageURL={dfx}
+          targetURL="https://dfx.swiss"
           width={150}
           height={100}
         />
         <Client
-          name="DFX"
-          imageURL={dfx}
-          targetURL="https://dfx.swiss"
+          name="Moonstruck"
+          imageURL={moonstruck}
+          targetURL="https://moonstruck.io"
           width={150}
           height={100}
         />
