@@ -10,7 +10,7 @@ import { Partners } from "./Partners";
 import { Chains } from "./Chains";
 import { FAQs } from "./FAQs";
 import avix from "../assets/clients/avix.png";
-import majr from "../assets/clients/majr.png";
+import majr from "../assets/clients/MAJR.png";
 import longterm from "../assets/clients/longterm.png";
 import scaleroad from "../assets/clients/scaleroad.png";
 import clc from "../assets/clients/clc.png";
