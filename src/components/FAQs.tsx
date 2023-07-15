@@ -214,7 +214,7 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
             <br /> <br />
             This structure ensures that we have the resources necessary to start
             the project, while also giving you the peace of mind that the
-            biggest part of the payment is due only after you are{" "}
+            majority of the payment is due only after you are{" "}
             <strong>completely satisfied with the final product.</strong>
           </span>
         }

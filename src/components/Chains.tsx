@@ -1,18 +1,24 @@
 import React from "react";
 import "./chains.scss";
 import { Chain } from "./common/Chain";
-import ethLogo from "../assets/eth_logo.svg";
-import arbLogo from "../assets/arb_logo.png";
+import ethLogo from "../assets/eth_logo_new.png";
+import arbLogo from "../assets/arb_logo_new.png";
 import opLogo from "../assets/op_logo.png";
+import baseLogo from "../assets/base_logo.png";
 import maticLogo from "../assets/matic_logo.png";
-import polygonZkEVMLogo from "../assets/polygon_zkevm_logo.jpeg";
+import polygonZkEVMLogo from "../assets/polygon_zkevm_logo.png";
 import zkSyncLogo from "../assets/zksync_logo.png";
 import starkNetLogo from "../assets/starknet_logo.png";
-import bnbLogo from "../assets/bnb_logo.png";
+import lineaLogo from "../assets/linea_logo.png";
+import scrollLogo from "../assets/scroll_logo.png";
+import bnbLogo from "../assets/bnb_smart_chain_logo.png";
 import avaxLogo from "../assets/avax_logo.png";
 import ftmLogo from "../assets/ftm_logo.png";
 import celoLogo from "../assets/celo_logo.png";
-import evmLogo from "../assets/microchip.png";
+import fuseLogo from "../assets/fuse_logo.png";
+import evmLogo from "../assets/chain.png";
+
+// add other prominent chains: Taiko, Mantle, LayerZero, ZetaChain, AltLayer
 
 type ChainsProps = {
   children?: React.ReactNode;
@@ -38,6 +44,7 @@ export const Chains: React.FC<ChainsProps> = (): JSX.Element => {
           imageURL={opLogo}
           targetURL="https://optimism.io"
         />
+        <Chain name="Base" imageURL={baseLogo} targetURL="https://base.org" />
         <Chain
           name="Polygon"
           imageURL={maticLogo}
@@ -59,6 +66,19 @@ export const Chains: React.FC<ChainsProps> = (): JSX.Element => {
           targetURL="https://starknet.io"
         />
         <Chain
+          name="Linea"
+          imageURL={lineaLogo}
+          targetURL="https://linea.build"
+          style={{
+            borderRadius: "50%",
+          }}
+        />
+        <Chain
+          name="Scroll"
+          imageURL={scrollLogo}
+          targetURL="https://scroll.io"
+        />
+        <Chain
           name="BNB Smart Chain"
           imageURL={bnbLogo}
           targetURL="https://www.bnbchain.org/en/smartChain"
@@ -73,7 +93,8 @@ export const Chains: React.FC<ChainsProps> = (): JSX.Element => {
           imageURL={ftmLogo}
           targetURL="https://fantom.foundation"
         />
-        <Chain name="Celo" imageURL={celoLogo} targetURL="https://celo.org/" />
+        <Chain name="Celo" imageURL={celoLogo} targetURL="https://celo.org" />
+        <Chain name="Fuse" imageURL={fuseLogo} targetURL="https://fuse.io" />
         <Chain
           name={
             <a
