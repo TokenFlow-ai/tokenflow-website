@@ -4,6 +4,7 @@ import TwitterIcon from "@material-ui/icons/Twitter";
 import LinkedInIcon from "../../assets/linkedin_icon.svg";
 import TelegramIcon from "@material-ui/icons/Telegram";
 // import YouTubeIcon from "@material-ui/icons/YouTube";
+import GithubIcon from "@material-ui/icons/GitHub";
 import YouTubeIcon from "../../assets/youtube_icon.svg";
 import EmailIcon from "@material-ui/icons/Email";
 import { getYear } from "../../utils/utils";
@@ -60,7 +61,7 @@ export const Footer: React.FC<FooterProps> = (): JSX.Element => {
                 }}
               />
             </a>
-            <a
+            {/* <a
               target="_blank"
               rel="noopener noreferrer"
               href="https://youtube.com/channel/UClpnVlob8iQKsdg_Ih3HWFA"
@@ -72,6 +73,22 @@ export const Footer: React.FC<FooterProps> = (): JSX.Element => {
                 style={{
                   width: "40px",
                   height: "40px",
+                }}
+              />
+            </a> */}
+            <a
+              className="social-link"
+              href="https://github.com/TokenFlow-ai"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <GithubIcon
+                style={{
+                  color: "#181515",
+                  backgroundColor: "#fff",
+                  fontSize: "2em",
+                  borderRadius: "50%",
+                  border: "1px solid #fff",
                 }}
               />
             </a>

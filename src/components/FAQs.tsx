@@ -77,9 +77,9 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
           <span>
             <strong>Our primary supported blockchains include:</strong> Ethereum
             mainnet, Arbitrum One, Optimism, Polygon, Polygon zkEVM, zkSync Era,
-            StarkNet, Linea, BNB Smart Chain (BSC), Avalanche C-Chain, Fantom,
-            Celo and Fuse. In addition to these, we support and can build smart
-            contracts for you on{" "}
+            Linea, Scroll, Taiko, Base, BNB Smart Chain (BSC), Avalanche
+            C-Chain, Fantom, Celo and Fuse. In addition to these, we also
+            support and can build smart contracts for you on{" "}
             <a
               className="faq-link"
               href="/supported_chains.pdf"
@@ -248,8 +248,9 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
             <strong>
               we can deliver your project in as little as 2-4 weeks
             </strong>{" "}
-            with the fast-track delivery option, which is 50% more expensive
-            than the originally agreed upon project price.
+            (depending on the project's complexity) with the fast-track delivery
+            option, which is 50% more expensive than the originally agreed upon
+            project price.
           </span>
         }
       />
@@ -272,7 +273,7 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
         }
       />
       <FAQItem
-        question="8.) Do you have a referral program currently active?"
+        question="8.) Do you have a partnership or referral programs currently active?"
         answer={
           <span>
             Yes, we have a referral program for our smart contract development
@@ -285,7 +286,19 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
             <strong>
               a 10% referral commission for every project that we get through
               your referral.
-            </strong>
+            </strong>{" "}
+            If you are interested in our referral program, or wish to explore
+            potential collaborations and synergies through a partnership, please
+            feel free to schedule a call with us{" "}
+            <a
+              className="faq-link"
+              href="https://calendly.com/tokenflow"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              here
+            </a>
+            .
           </span>
         }
       />
@@ -312,11 +325,44 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
             <br /> <br />
             In an unfortunate event that you find a bug in the contract, or if
             it gets hacked,{" "}
-            <strong>we will provide a fix for it free of charge.</strong> Also,
-            if you are interested in a{" "}
-            <strong>third-party audit of the contracts,</strong> we can point
-            you in the right direction by providing you with a list of reputable
-            auditing firms that can perform the audit for you.
+            <strong>
+              we will try to provide a fix for it free of charge.
+            </strong>{" "}
+            If a third-party audit of the smart contracts interests you, we can
+            facilitate introductions to our{" "}
+            <strong>smart contract auditing partners - </strong>{" "}
+            <a
+              href="https://certik.com"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="faq-link"
+              title="CertiK"
+            >
+              CertiK
+            </a>
+            ,{" "}
+            <a
+              href="https://hacken.io"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="faq-link"
+              title="Hacken"
+            >
+              Hacken
+            </a>
+            ,{" "}
+            <a
+              href="https://quantstamp.com"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="faq-link"
+              title="Quantstamp"
+            >
+              Quantstamp
+            </a>
+            , among others (refer to the list of our partners above). These
+            firms are all leaders in the blockchain security space, and have a
+            proven track record.
           </span>
         }
       />
@@ -332,8 +378,17 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
               target="_blank"
             >
               contact@tokenflow.ai
+            </a>{" "}
+            or{" "}
+            <a
+              className="faq-link"
+              href="https://t.me/TokenFlow_ai"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Telegram
             </a>
-            , or by scheduling a 30-minute free consultation call with us{" "}
+            , and also by scheduling a 30-minute free consultation call with us{" "}
             <a
               className="faq-link"
               href="https://calendly.com/tokenflow"

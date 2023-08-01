@@ -15,7 +15,7 @@ export const WhyUs: React.FC<WhyUsProps> = (): JSX.Element => {
       id="why_us"
     >
       <h2 className="bold key-feats-title text-center mb-5 why-us-title">
-        Why Us?
+        Why TokenFlow?
       </h2>
 
       <div className="key-features-why-us mb-5">

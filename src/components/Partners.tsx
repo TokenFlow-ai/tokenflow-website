@@ -39,15 +39,15 @@ export const Partners: React.FC<PartnersProps> = (): JSX.Element => {
           targetURL="https://arbitrum.foundation"
           width={150}
           height={100}
-        /> */}
-        {/* <Partner
+        />
+        <Partner
           name="Avalanche"
           imageURL={avalanche}
           targetURL="https://avax.network"
           width={150}
           height={100}
-        /> */}
-        {/* <Partner
+        />
+        <Partner
           name="Polygon"
           imageURL={polygon}
           targetURL="https://polygon.technology"
@@ -58,37 +58,37 @@ export const Partners: React.FC<PartnersProps> = (): JSX.Element => {
           name="Linea"
           imageURL={linea}
           targetURL="https://linea.build"
-          width={130}
+          width={150}
           height={100}
-        /> */}
-        {/* <Partner
+        />
+        <Partner
           name="Aurora"
           imageURL={aurora}
           targetURL="https://aurora.dev"
           width={150}
           height={100}
-        /> */}
-        {/* <Partner
+        />
+        <Partner
           name="Fuse Ignite"
           imageURL={fuseIgnite}
           targetURL="https://fuse.io/ignite"
           width={150}
           height={100}
         /> */}
-        {/* <Partner
+        <Partner
           name="Certik"
           imageURL={certik}
           targetURL="https://certik.com"
           width={150}
           height={100}
-        /> */}
-        {/* <Partner
+        />
+        <Partner
           name="Hacken"
           imageURL={hacken}
           targetURL="https://hacken.io"
           width={100}
           height={100}
-        /> */}
+        />
         {/* <Partner
           name="Consensys Diligence"
           imageURL={consensysDiligence}
@@ -96,13 +96,13 @@ export const Partners: React.FC<PartnersProps> = (): JSX.Element => {
           width={150}
           height={100}
         /> */}
-        {/* <Partner
+        <Partner
           name="Quantstamp"
           imageURL={quantstamp}
           targetURL="https://quantstamp.com"
           width={160}
           height={100}
-        /> */}
+        />
         {/* <Partner
           name="Open Zeppelin"
           imageURL={openZeppelin}
@@ -172,20 +172,20 @@ export const Partners: React.FC<PartnersProps> = (): JSX.Element => {
           width={130}
           height={100}
         />
-        <Partner
+        {/* <Partner
           name="Moonstruck"
           imageURL={moonstruck}
           targetURL="https://moonstruck.io"
           width={160}
           height={100}
-        />
-        <Partner
+        /> */}
+        {/* <Partner
           name="MetaKeep"
           imageURL={metaKeep}
           targetURL="https://metakeep.xyz/"
           width={150}
           height={100}
-        />
+        /> */}
       </div>
     </div>
   );

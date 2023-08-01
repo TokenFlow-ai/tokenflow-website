@@ -41,7 +41,7 @@ export const OurServices: React.FC<OurServicesProps> = (): JSX.Element => {
                 requirements
               </p>
               <p className="plan-feature">
-                <span className="pricing-tick">✔</span> Enjoy only the highest
+                <span className="pricing-tick">✔</span> Enjoy the highest
                 security standards thanks to using LayerZero's tech stack
               </p>
             </div>

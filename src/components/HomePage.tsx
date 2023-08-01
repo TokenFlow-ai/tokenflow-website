@@ -88,7 +88,6 @@ export const HomePage: React.FC<HomePageProps> = (): JSX.Element => {
     <React.Fragment>
       {/* Dark mode for the entire website & update the developed contracts list doc to reach 200+ over time */}
       <Hero />
-      <WhyUs />
       <OurServices />
       {/* Add cross-chain & layer 3/app chains service cards to OurServices */}
       <Testimonials testimonials={testimonials} />
@@ -96,6 +95,7 @@ export const HomePage: React.FC<HomePageProps> = (): JSX.Element => {
       <Stats />
       <TheTeam />
       <Partners />
+      <WhyUs />
       <Chains />
       <FAQs />
     </React.Fragment>
