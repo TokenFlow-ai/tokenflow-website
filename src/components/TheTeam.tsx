@@ -2,6 +2,7 @@ import React from "react";
 import "./theTeam.scss";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import GithubIcon from "@material-ui/icons/GitHub";
 import mihailo from "../assets/mihailo_small_white_bg.png";
 import andela from "../assets/andela_small.png";
 
@@ -13,7 +14,7 @@ export const TheTeam: React.FC<TheTeamProps> = (): JSX.Element => {
   return (
     <div className="the-team-container">
       <div className="the-team-title-container">
-        <p className="the-team-subtitle">Behind TokenFlow</p>
+        <p className="the-team-subtitle">Leading the Flow</p>
         <h2 className="the-team-title">The Team</h2>
       </div>
 
@@ -42,11 +43,20 @@ export const TheTeam: React.FC<TheTeamProps> = (): JSX.Element => {
               >
                 <LinkedInIcon style={{ color: "#0177B7", fontSize: "2em" }} />
               </a>
+              <a
+                className="team-member-social"
+                href="https://github.com/mihailo-maksa"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <GithubIcon style={{ color: "#181515", fontSize: "2em" }} />
+              </a>
             </div>
             <div className="team-member-description">
               Mihailo is a highly skilled smart contract engineer with over 4
-              years of experience in the development of DeFi protocols, NFT
-              contracts, DAOs and various different dApps and web3 applications.
+              years of experience in the development of DeFi protocols,
+              cross-chain bridges, NFTs, DAOs and various different dApps and
+              web3 applications.
               <br /> <br />
               He is responsible for managing the delivery of work to our clients
               in a timely manner, and has a proven track record of delivering
@@ -74,7 +84,7 @@ export const TheTeam: React.FC<TheTeamProps> = (): JSX.Element => {
               </a>
               <a
                 className="team-member-social"
-                href="https://www.linkedin.com/in/angelabobic"
+                href="https://linkedin.com/in/angelabobic"
                 target="_blank"
                 rel="noopener noreferrer"
               >

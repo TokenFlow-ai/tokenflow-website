@@ -32,8 +32,8 @@ export const Client: React.FC<ClientProps> = ({
           src={imageURL}
           alt={name}
           className="client-logo"
-          width={width || 100}
-          height={height || 100}
+          width={width}
+          height={height}
         />
       </a>
     </div>

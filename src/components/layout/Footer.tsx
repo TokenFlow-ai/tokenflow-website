@@ -63,7 +63,7 @@ export const Footer: React.FC<FooterProps> = (): JSX.Element => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.youtube.com/channel/UClpnVlob8iQKsdg_Ih3HWFA"
+              href="https://youtube.com/channel/UClpnVlob8iQKsdg_Ih3HWFA"
               className="social-link"
             >
               <img

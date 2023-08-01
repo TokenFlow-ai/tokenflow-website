@@ -1,6 +1,8 @@
 {
   "name": "tokenflow-website",
   "version": "0.1.0",
+  "description": "TokenFlow Website",
+  "author": "TokenFlow",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.4",

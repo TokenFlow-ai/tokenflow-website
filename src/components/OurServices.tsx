@@ -1,8 +1,12 @@
 import React from "react";
 import "./ourServices.scss";
-import token from "../assets/token.png";
-import nft from "../assets/nft.png";
+import crossChain from "../assets/layerss.png";
+import layers from "../assets/layersss.png";
 import custom from "../assets/custom.png";
+import layerzero from "../assets/layerzero_logo5.png";
+import arbitrum from "../assets/arb_logo.png";
+import matic from "../assets/matic_logo.png";
+import avalanche from "../assets/avax_logo.png";
 
 export type OurServicesProps = {
   children?: React.ReactNode;
@@ -19,43 +23,94 @@ export const OurServices: React.FC<OurServicesProps> = (): JSX.Element => {
         <div className="pricing-cards-container">
           <div className="pricing-card pricing-card-1">
             <img
-              src={token}
-              alt="Token Contract Development"
-              className="pricing-card-image"
+              src={crossChain}
+              alt="Cross-Chain Development"
+              width={100}
+              height={100}
+              style={{
+                marginBottom: "22px",
+              }}
             />
 
-            <h2 className="pricing-plan-title">Token Development</h2>
+            <h2 className="pricing-plan-title">Cross-Chain Development</h2>
 
             <div className="plan-features">
               <p className="plan-feature">
-                <span className="pricing-tick">✔</span> Custom-made token smart
-                contract for your project
+                <span className="pricing-tick">✔</span> Tokens and NFTs built
+                for the omnichain future, with no fees and liquidity
+                requirements
               </p>
               <p className="plan-feature">
-                <span className="pricing-tick">✔</span> Supported token
-                standards: ERC20, BEP20, ERC777 & more
+                <span className="pricing-tick">✔</span> Enjoy only the highest
+                security standards thanks to using LayerZero's tech stack
               </p>
+            </div>
+
+            <div className="layerzero-group">
+              <span className="powered-by-layerzero">Powered by</span>
+              <a
+                href="https://layerzero.network"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="LayerZero"
+              >
+                <img
+                  src={layerzero}
+                  alt="LayerZero"
+                  className="layerzero-image"
+                />
+              </a>
             </div>
           </div>
 
           <div className="pricing-card pricing-card-1">
             <img
-              src={nft}
-              alt="NFT Contract Development"
+              src={layers}
+              alt="Layer 2 & Layer 3 Blockchain Development"
               className="pricing-card-image"
             />
 
-            <h2 className="pricing-plan-title">NFT Development</h2>
+            <h2 className="pricing-plan-title">
+              Layer 2 & Layer 3 Blockchain Development
+            </h2>
 
             <div className="plan-features">
               <p className="plan-feature">
                 <span className="pricing-tick pricing-tick">✔</span> Custom-made
-                NFT smart contract for your project
+                layer 2 and layer 3 chains (appchains) for your project
               </p>
               <p className="plan-feature">
-                <span className="pricing-tick pricing-tick">✔</span> Supported
-                token standards: ERC721, ERC1155 & more
+                <span className="pricing-tick pricing-tick">✔</span> Coming
+                soon: Arbitrum Orbit, Polygon Supernets, Avalanche Subnets &
+                more
               </p>
+            </div>
+
+            <div className="layer3-group">
+              <a
+                href="hhttps://arbitrum.foundation/orbit"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Arbitrum Orbit"
+              >
+                <img src={arbitrum} alt="Arbitrum" className="layer3-image" />
+              </a>
+              <a
+                href="https://polygon.technology/polygon-supernets"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Polygon Supernets"
+              >
+                <img src={matic} alt="Polygon" className="layer3-image" />
+              </a>
+              <a
+                href="https://avax.network/subnets"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Avalanche Subnets"
+              >
+                <img src={avalanche} alt="Avalanche" className="layer3-image" />
+              </a>
             </div>
           </div>
 
@@ -66,7 +121,9 @@ export const OurServices: React.FC<OurServicesProps> = (): JSX.Element => {
               className="pricing-card-image"
             />
 
-            <h2 className="pricing-plan-title">Custom Development</h2>
+            <h2 className="pricing-plan-title">
+              Custom Smart Contract Development
+            </h2>
 
             <div className="plan-features">
               <p className="plan-feature">
@@ -83,8 +140,22 @@ export const OurServices: React.FC<OurServicesProps> = (): JSX.Element => {
                 that we can build for you
               </p>
               <p className="plan-feature">
-                <span className="pricing-tick">✔</span> Seamless cross-chain
-                integrations and interoperability for an unrivaled UX
+                <span className="pricing-tick">✔</span>{" "}
+                <a
+                  href="/supported_chains.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="pricing-link"
+                  title="Blockchains Supported by TokenFlow"
+                >
+                  120+ chains
+                </a>{" "}
+                supported by TokenFlow
+              </p>
+              <p className="plan-feature">
+                <span className="pricing-tick">✔</span> Our contracts are
+                optimized for both security and gas efficiency, and are built to
+                scale
               </p>
             </div>
           </div>

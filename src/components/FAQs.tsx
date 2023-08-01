@@ -77,9 +77,9 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
           <span>
             <strong>Our primary supported blockchains include:</strong> Ethereum
             mainnet, Arbitrum One, Optimism, Polygon, Polygon zkEVM, zkSync Era,
-            StarkNet, BNB Smart Chain (BSC), Avalanche C-Chain, Fantom and Celo.
-            In addition to these, we support and can build smart contracts for
-            you on{" "}
+            StarkNet, Linea, BNB Smart Chain (BSC), Avalanche C-Chain, Fantom,
+            Celo and Fuse. In addition to these, we support and can build smart
+            contracts for you on{" "}
             <a
               className="faq-link"
               href="/supported_chains.pdf"
@@ -165,7 +165,7 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
             zkSync Era, BNB Smart Chain (BSC), Avalanche C-Chain, Fantom and
             Celo.{" "}
             <strong>
-              As for BTC , we accept it on the Bitcoin network only.
+              As for BTC, we accept it on the Bitcoin network only.
             </strong>
             <br /> <br />
             Also, due to popular demand,{" "}

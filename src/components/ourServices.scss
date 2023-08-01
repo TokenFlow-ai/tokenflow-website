@@ -359,3 +359,27 @@
     }
   }
 }
+
+.layerzero-group {
+  margin-top: 10px;
+
+  .powered-by-layerzero {
+    margin-right: 4px;
+  }
+
+  .layerzero-image {
+    width: 90px;
+    margin-bottom: 2px;
+  }
+}
+
+.layer3-group {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+
+  .layer3-image {
+    width: 42px;
+    height: 42px;
+  }
+}
