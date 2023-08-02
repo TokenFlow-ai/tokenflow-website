@@ -96,13 +96,13 @@ export const Partners: React.FC<PartnersProps> = (): JSX.Element => {
           width={150}
           height={100}
         /> */}
-        <Partner
+        {/* <Partner
           name="Quantstamp"
           imageURL={quantstamp}
           targetURL="https://quantstamp.com"
           width={160}
           height={100}
-        />
+        /> */}
         {/* <Partner
           name="Open Zeppelin"
           imageURL={openZeppelin}

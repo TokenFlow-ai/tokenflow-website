@@ -81,8 +81,8 @@ export const WhyUs: React.FC<WhyUsProps> = (): JSX.Element => {
             />
           </div>
           <div className="key-feat-text">
-            <h3 className="key-feat-title mt-5">Transparent Pricing</h3>
-            <p className="key-feat-desc">
+            <h3 className="key-feat-title mt-4">Transparent Pricing</h3>
+            <p className="key-feat-desc tp-pricing">
               We believe in honest and upfront communication. That's why{" "}
               <strong>we provide simple and transparent pricing</strong> to our
               clients.
