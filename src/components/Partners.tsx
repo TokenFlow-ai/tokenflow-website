@@ -124,13 +124,13 @@ export const Partners: React.FC<PartnersProps> = (): JSX.Element => {
           width={150}
           height={100}
         />
-        <Partner
+        {/* <Partner
           name="Chainstack"
           imageURL={chainstack}
           targetURL="https://chainstack.com"
           width={180}
           height={100}
-        />
+        /> */}
         <Partner
           name="Faster Capital"
           imageURL={fasterCapital}
@@ -172,13 +172,13 @@ export const Partners: React.FC<PartnersProps> = (): JSX.Element => {
           width={130}
           height={100}
         />
-        {/* <Partner
+        <Partner
           name="Moonstruck"
           imageURL={moonstruck}
           targetURL="https://moonstruck.io"
           width={160}
           height={100}
-        /> */}
+        />
         {/* <Partner
           name="MetaKeep"
           imageURL={metaKeep}
