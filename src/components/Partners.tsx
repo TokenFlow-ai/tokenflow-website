@@ -9,7 +9,7 @@ import aurora from "../assets/partners/aurora.png";
 import beosin from "../assets/partners/beosin.png";
 import fasterCapital from "../assets/partners/faster_capital.png";
 import startupStack from "../assets/partners/startup_stack.svg";
-import theCryptoRecruiters from "../assets/partners/the_crypto_recruiters.jpeg";
+import theCryptoRecruiters from "../assets/partners/the_crypto_recruiters.png";
 import miraiDAO from "../assets/partners/mirai_dao.jpeg";
 import fuseIgnite from "../assets/partners/fuse_ignite.png";
 import certik from "../assets/partners/certik.jpeg";
@@ -17,8 +17,8 @@ import hacken from "../assets/partners/hacken.jpg";
 import consensysDiligence from "../assets/partners/consensys_diligence.png";
 import quantstamp from "../assets/partners/quantstamp.png";
 import openZeppelin from "../assets/partners/openzeppelin.png";
-import cyberscope from "../assets/partners/cyberscope.jpeg";
-import quillAudits from "../assets/partners/quill_audits.jpeg";
+import cyberscope from "../assets/partners/cyberscope.png";
+import quillAudits from "../assets/partners/quill_audits.png";
 import moonstruck from "../components/misc/Moonstruck.svg";
 import dfx from "../assets/partners/dfx.jpeg";
 import chainstack from "../assets/partners/chainstack.png";
@@ -75,13 +75,13 @@ export const Partners: React.FC<PartnersProps> = (): JSX.Element => {
           width={150}
           height={100}
         /> */}
-        <Partner
+        {/* <Partner
           name="Certik"
           imageURL={certik}
           targetURL="https://certik.com"
           width={150}
           height={100}
-        />
+        /> */}
         <Partner
           name="Hacken"
           imageURL={hacken}
@@ -121,7 +121,7 @@ export const Partners: React.FC<PartnersProps> = (): JSX.Element => {
           name="Cyberscope"
           imageURL={cyberscope}
           targetURL="https://cyberscope.io"
-          width={90}
+          width={150}
           height={100}
         />
         <Partner
