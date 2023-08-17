@@ -23,6 +23,7 @@ import moonstruck from "../components/misc/Moonstruck.svg";
 import dfx from "../assets/partners/dfx.jpeg";
 import chainstack from "../assets/partners/chainstack.png";
 import metaKeep from "../assets/partners/meta_keep.jpeg";
+import nalikesStudio from "../assets/partners/nalikes_studio.png";
 
 type PartnersProps = {
   children?: React.ReactNode;

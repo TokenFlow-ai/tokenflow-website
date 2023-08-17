@@ -209,12 +209,12 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
         answer={
           <span>
             Our payment structure is{" "}
-            <strong>40% upfront and 60% after the project is completed</strong>{" "}
+            <strong>50% upfront and 50% after the project is completed</strong>{" "}
             to your satisfaction.
             <br /> <br />
             This structure ensures that we have the resources necessary to start
-            the project, while also giving you the peace of mind that the
-            majority of the payment is due only after you are{" "}
+            the project, while also giving you the peace of mind that the rest
+            of the payment is due only after you are{" "}
             <strong>completely satisfied with the final product.</strong>
           </span>
         }
