@@ -68,7 +68,7 @@ export const Header: React.FC<HeaderProps> = (): JSX.Element => {
             FAQs
           </a>
           <a
-            href="mailto:contact@tokenflow.ai"
+            href="mailto:office@tokenflow.ai"
             rel="noopener noreferrer"
             target="_blank"
             className="nav-link"
@@ -159,7 +159,7 @@ export const Header: React.FC<HeaderProps> = (): JSX.Element => {
               FAQs
             </a>
             <a
-              href="mailto:contact@tokenflow.ai"
+              href="mailto:office@tokenflow.ai"
               rel="noopener noreferrer"
               target="_blank"
               className="nav-link"

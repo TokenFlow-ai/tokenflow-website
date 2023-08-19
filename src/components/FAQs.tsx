@@ -373,11 +373,11 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
             You can always contact us directly via email at{" "}
             <a
               className="faq-link"
-              href="mailto:contact@tokenflow.ai"
+              href="mailto:office@tokenflow.ai"
               rel="noopener noreferrer"
               target="_blank"
             >
-              contact@tokenflow.ai
+              office@tokenflow.ai
             </a>{" "}
             or{" "}
             <a

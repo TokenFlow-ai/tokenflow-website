@@ -109,7 +109,7 @@ export const Footer: React.FC<FooterProps> = (): JSX.Element => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="mailto:contact@tokenflow.ai"
+              href="mailto:office@tokenflow.ai"
               className="social-link"
             >
               <EmailIcon style={{ color: "#fff", fontSize: "2em" }} />
