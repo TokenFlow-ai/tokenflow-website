@@ -230,7 +230,7 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
             the development time. You can{" "}
             <a
               className="faq-link"
-              href="https://calendly.com/tokenflow"
+              href="https://calendly.com/angela-bobic"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -292,7 +292,7 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
             feel free to schedule a call with us{" "}
             <a
               className="faq-link"
-              href="https://calendly.com/tokenflow"
+              href="https://calendly.com/angela-bobic"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -391,7 +391,7 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
             , and also by scheduling a 30-minute free consultation call with us{" "}
             <a
               className="faq-link"
-              href="https://calendly.com/tokenflow"
+              href="https://calendly.com/angela-bobic"
               rel="noopener noreferrer"
               target="_blank"
             >
