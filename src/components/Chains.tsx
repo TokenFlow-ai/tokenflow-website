@@ -18,11 +18,11 @@ import mantleLogo from "../assets/mantle_logo.jpeg";
 import altLayerLogo from "../assets/altlayer_logo.png";
 import zetaChainLogo from "../assets/zetachain_logo.png";
 import bnbLogo from "../assets/bnb_smart_chain_logo.png";
-// import opbnbLogo from "../assets/opbnb_logo.png";
+import opbnbLogo from "../assets/opbnb_logo.png";
 import avaxLogo from "../assets/avax_logo.png";
 import ftmLogo from "../assets/ftm_logo.png";
-import celoLogo from "../assets/celo_logo.png";
-import fuseLogo from "../assets/fuse_logo.png";
+import auroraLogo from "../assets/aurora_logo.png";
+// import celoLogo from "../assets/celo_logo.png";
 import evmLogo from "../assets/chain.png";
 
 type ChainsProps = {
@@ -54,6 +54,7 @@ export const Chains: React.FC<ChainsProps> = (): JSX.Element => {
           imageURL={opLogo}
           targetURL="https://optimism.io"
         />
+        <Chain name="Base" imageURL={baseLogo} targetURL="https://base.org" />
         {/* <Chain
           name="Metis"
           imageURL={metisLogo}
@@ -100,7 +101,6 @@ export const Chains: React.FC<ChainsProps> = (): JSX.Element => {
           imageURL={taikoLogo}
           targetURL="https://taiko.xyz"
         />
-        <Chain name="Base" imageURL={baseLogo} targetURL="https://base.org" />
         <Chain
           name="Mantle"
           imageURL={mantleLogo}
@@ -130,11 +130,11 @@ export const Chains: React.FC<ChainsProps> = (): JSX.Element => {
           imageURL={bnbLogo}
           targetURL="https://bnbchain.org/en/smartChain"
         />
-        {/* <Chain
+        <Chain
           name="opBNB"
           imageURL={opbnbLogo}
           targetURL="https://opbnb.bnbchain.org/en"
-        /> */}
+        />
         <Chain
           name="Avalanche C-Chain"
           imageURL={avaxLogo}
@@ -145,8 +145,13 @@ export const Chains: React.FC<ChainsProps> = (): JSX.Element => {
           imageURL={ftmLogo}
           targetURL="https://fantom.foundation"
         />
-        <Chain name="Celo" imageURL={celoLogo} targetURL="https://celo.org" />
-        <Chain name="Fuse" imageURL={fuseLogo} targetURL="https://fuse.io" />
+        <Chain
+          name="Aurora"
+          imageURL={auroraLogo}
+          targetURL="https://aurora.dev"
+        />
+        {/* <Chain name="Celo" imageURL={celoLogo} targetURL="https://celo.org" /> */}
+        {/* <Chain name="Fuse" imageURL={fuseLogo} targetURL="https://fuse.io" /> */}
         <Chain
           name={
             <a

@@ -5,7 +5,6 @@ import LinkedInIcon from "../../assets/linkedin_icon.svg";
 import TelegramIcon from "@material-ui/icons/Telegram";
 // import YouTubeIcon from "@material-ui/icons/YouTube";
 import GithubIcon from "@material-ui/icons/GitHub";
-import YouTubeIcon from "../../assets/youtube_icon.svg";
 import EmailIcon from "@material-ui/icons/Email";
 import { getYear } from "../../utils/utils";
 import { PopupButton } from "react-calendly";

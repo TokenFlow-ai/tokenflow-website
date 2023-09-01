@@ -55,8 +55,8 @@ export const TheTeam: React.FC<TheTeamProps> = (): JSX.Element => {
             <div className="team-member-description">
               Mihailo is a highly skilled smart contract engineer with over 4
               years of experience in the development of DeFi protocols,
-              cross-chain bridges, NFTs, DAOs and various different dApps and
-              web3 applications.
+              cross-chain bridges, NFTs, DAOs, layer 2 scaling solutions, and
+              various different dApps.
               <br /> <br />
               He is responsible for managing the delivery of work to our clients
               in a timely manner, and has a proven track record of delivering
@@ -99,7 +99,7 @@ export const TheTeam: React.FC<TheTeamProps> = (): JSX.Element => {
               <br /> <br />
               With her strong leadership skills and dedication to excellence,
               she plays a pivotal role in driving the growth and expansion of
-              the company's client base. #Women in Blockchain
+              the company's client base. <strong>#Women in Blockchain</strong>
             </div>
           </div>
         </div>

@@ -86,10 +86,8 @@ type HomePageProps = {
 export const HomePage: React.FC<HomePageProps> = (): JSX.Element => {
   return (
     <React.Fragment>
-      {/* Dark mode for the entire website & update the developed contracts list doc to reach 200+ over time */}
       <Hero />
       <OurServices />
-      {/* Add cross-chain & layer 3/app chains service cards to OurServices */}
       <Testimonials testimonials={testimonials} />
       <OurClients clients={clients} />
       <Stats />

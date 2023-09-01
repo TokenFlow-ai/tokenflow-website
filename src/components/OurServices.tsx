@@ -5,6 +5,7 @@ import layers from "../assets/layersss.png";
 import custom from "../assets/custom.png";
 import layerzero from "../assets/layerzero_logo5.png";
 import arbitrum from "../assets/arb_logo.png";
+import optimism from "../assets/op_logo.png";
 import matic from "../assets/matic_logo.png";
 import avalanche from "../assets/avax_logo.png";
 
@@ -81,19 +82,31 @@ export const OurServices: React.FC<OurServicesProps> = (): JSX.Element => {
               </p>
               <p className="plan-feature">
                 <span className="pricing-tick pricing-tick">✔</span> Coming
-                soon: Arbitrum Orbit, Polygon Supernets, Avalanche Subnets &
-                more
+                soon: Arbitrum Orbit, OP Stack, Polygon Supernets, Avalanche
+                Subnets & more
               </p>
             </div>
 
             <div className="layer3-group">
               <a
-                href="hhttps://arbitrum.foundation/orbit"
+                href="https://arbitrum.foundation/orbit"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="Arbitrum Orbit"
               >
-                <img src={arbitrum} alt="Arbitrum" className="layer3-image" />
+                <img
+                  src={arbitrum}
+                  alt="Arbitrum Orbit"
+                  className="layer3-image"
+                />
+              </a>
+              <a
+                href="https://app.optimism.io/superchain"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="OP Stack"
+              >
+                <img src={optimism} alt="OP Stack" className="layer3-image" />
               </a>
               <a
                 href="https://polygon.technology/polygon-supernets"
@@ -101,7 +114,11 @@ export const OurServices: React.FC<OurServicesProps> = (): JSX.Element => {
                 rel="noopener noreferrer"
                 title="Polygon Supernets"
               >
-                <img src={matic} alt="Polygon" className="layer3-image" />
+                <img
+                  src={matic}
+                  alt="Polygon Supernets"
+                  className="layer3-image"
+                />
               </a>
               <a
                 href="https://avax.network/subnets"
@@ -109,7 +126,11 @@ export const OurServices: React.FC<OurServicesProps> = (): JSX.Element => {
                 rel="noopener noreferrer"
                 title="Avalanche Subnets"
               >
-                <img src={avalanche} alt="Avalanche" className="layer3-image" />
+                <img
+                  src={avalanche}
+                  alt="Avalanche Subnets"
+                  className="layer3-image"
+                />
               </a>
             </div>
           </div>
