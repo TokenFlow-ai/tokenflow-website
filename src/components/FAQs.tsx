@@ -332,16 +332,6 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
             facilitate introductions to our{" "}
             <strong>smart contract auditing partners - </strong>{" "}
             <a
-              href="https://certik.com"
-              rel="noopener noreferrer"
-              target="_blank"
-              className="faq-link"
-              title="CertiK"
-            >
-              CertiK
-            </a>
-            ,{" "}
-            <a
               href="https://hacken.io"
               rel="noopener noreferrer"
               target="_blank"
@@ -352,13 +342,23 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
             </a>
             ,{" "}
             <a
-              href="https://quantstamp.com"
+              href="https://certik.com"
               rel="noopener noreferrer"
               target="_blank"
               className="faq-link"
-              title="Quantstamp"
+              title="CertiK"
             >
-              Quantstamp
+              CertiK
+            </a>
+            ,{" "}
+            <a
+              href="https://beosin.com"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="faq-link"
+              title="Beosin"
+            >
+              Beosin
             </a>
             , among others (refer to the list of our partners above). These
             firms are all leaders in the blockchain security space, and have a
