@@ -24,7 +24,7 @@ export const TheTeam: React.FC<TheTeamProps> = (): JSX.Element => {
           <div className="team-member-info">
             <h3 className="team-member-name">Mihailo Maksa</h3>
             <p className="team-member-position text-muted">
-              Senior Smart Contract Engineer
+              Lead Smart Contract Engineer
             </p>
             <div className="team-member-socials">
               <a
