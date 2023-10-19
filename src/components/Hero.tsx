@@ -11,13 +11,13 @@ export const Hero: React.FC<HeroProps> = (): JSX.Element => {
     <div className="intro-screen" id="tokenflow">
       <div className="intro-text">
         <h1 className="intro-title text-left mb-5 bold">
-          Your Go-To Smart Contract Development Agency
+          Turning Vision into Reality: 0 to 1 End-to-End Development Solutions
         </h1>
 
         <p className="intro-description mb-5">
-          At TokenFlow, we specialize in developing custom smart contracts
-          tailored to your project's needs and requirements{" "}
-          <strong>turning your vision into a reality.</strong>
+          At TokenFlow, we specialize in developing custom Dapps, web3 and
+          blockchain solutions tailored to your project's needs and requirements{" "}
+          <strong>turning your vision into reality.</strong>
           <br /> <br />
           With our deep expertise and commitment to excellence, we'll work with
           you every step of the way.{" "}
@@ -26,7 +26,7 @@ export const Hero: React.FC<HeroProps> = (): JSX.Element => {
 
         <div className="intro-buttons">
           <PopupButton
-            url="https://calendly.com/angela-bobic"
+            url="https://calendly.com/angela-bobic/30min"
             rootElement={document.getElementById("root") as HTMLElement}
             text="Let's Talk"
             className="btn shadow-btn mr-5 hero-btn"

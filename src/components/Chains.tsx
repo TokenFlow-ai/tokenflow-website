@@ -3,7 +3,7 @@ import "./chains.scss";
 import { Chain } from "./common/Chain";
 import ethLogo from "../assets/eth_logo_new.png";
 import arbLogo from "../assets/arb_logo_new.png";
-import arbNovaLogo from "../assets/arb_nova_logo.png";
+// import arbNovaLogo from "../assets/arb_nova_logo.png";
 import opLogo from "../assets/op_logo.png";
 // import metisLogo from "../assets/metis_logo.jpeg";
 import maticLogo from "../assets/matic_logo.png";
@@ -15,14 +15,15 @@ import scrollLogo from "../assets/scroll_logo.png";
 import taikoLogo from "../assets/taiko_logo.png";
 import baseLogo from "../assets/base_logo.png";
 import mantleLogo from "../assets/mantle_logo.jpeg";
-import altLayerLogo from "../assets/altlayer_logo.png";
-import zetaChainLogo from "../assets/zetachain_logo.png";
+// import altLayerLogo from "../assets/altlayer_logo.png";
+// import zetaChainLogo from "../assets/zetachain_logo.png";
 import bnbLogo from "../assets/bnb_smart_chain_logo.png";
-import opbnbLogo from "../assets/opbnb_logo.png";
+// import opbnbLogo from "../assets/opbnb_logo.png";
 import avaxLogo from "../assets/avax_logo.png";
 import ftmLogo from "../assets/ftm_logo.png";
-import auroraLogo from "../assets/aurora_logo.png";
+// import auroraLogo from "../assets/aurora_logo.png";
 // import celoLogo from "../assets/celo_logo.png";
+// import monadLogo from "../assets/monad_logo.jpeg";
 import evmLogo from "../assets/chain.png";
 
 type ChainsProps = {
@@ -44,11 +45,11 @@ export const Chains: React.FC<ChainsProps> = (): JSX.Element => {
           imageURL={arbLogo}
           targetURL="https://arbitrum.io"
         />
-        <Chain
+        {/* <Chain
           name="Arbitrum Nova"
           imageURL={arbNovaLogo}
           targetURL="https://nova.arbitrum.io"
-        />
+        /> */}
         <Chain
           name="Optimism"
           imageURL={opLogo}
@@ -109,7 +110,7 @@ export const Chains: React.FC<ChainsProps> = (): JSX.Element => {
             borderRadius: "50%",
           }}
         />
-        <Chain
+        {/* <Chain
           name="AltLayer"
           imageURL={altLayerLogo}
           targetURL="https://altlayer.io"
@@ -124,17 +125,17 @@ export const Chains: React.FC<ChainsProps> = (): JSX.Element => {
           style={{
             borderRadius: "50%",
           }}
-        />
+        /> */}
         <Chain
           name="BNB Smart Chain"
           imageURL={bnbLogo}
           targetURL="https://bnbchain.org/en/smartChain"
         />
-        <Chain
+        {/* <Chain
           name="opBNB"
           imageURL={opbnbLogo}
           targetURL="https://opbnb.bnbchain.org/en"
-        />
+        /> */}
         <Chain
           name="Avalanche C-Chain"
           imageURL={avaxLogo}
@@ -145,11 +146,19 @@ export const Chains: React.FC<ChainsProps> = (): JSX.Element => {
           imageURL={ftmLogo}
           targetURL="https://fantom.foundation"
         />
-        <Chain
+        {/* <Chain
           name="Aurora"
           imageURL={auroraLogo}
           targetURL="https://aurora.dev"
-        />
+        /> */}
+        {/* <Chain
+          name="Monad"
+          imageURL={monadLogo}
+          targetURL="https://monad.xyz"
+          style={{
+            borderRadius: "50%",
+          }}
+        /> */}
         {/* <Chain name="Celo" imageURL={celoLogo} targetURL="https://celo.org" /> */}
         {/* <Chain name="Fuse" imageURL={fuseLogo} targetURL="https://fuse.io" /> */}
         <Chain

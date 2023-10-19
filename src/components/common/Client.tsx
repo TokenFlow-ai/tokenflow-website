@@ -20,7 +20,7 @@ export const Client: React.FC<ClientProps> = ({
   height,
 }): JSX.Element => {
   return (
-    <div className="client" style={style}>
+    <div className="client">
       <a
         href={targetURL}
         rel="noopener noreferrer"
@@ -34,6 +34,7 @@ export const Client: React.FC<ClientProps> = ({
           className="client-logo"
           width={width}
           height={height}
+          style={style}
         />
       </a>
     </div>

@@ -87,7 +87,7 @@ export const Header: React.FC<HeaderProps> = (): JSX.Element => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://calendly.com/angela-bobic"
+              href="https://calendly.com/angela-bobic/30min"
               className="btn-link bold header-btn text-center bold"
               style={{ fontWeight: "bold", textAlign: "center", margin: "0" }}
             >
@@ -171,7 +171,7 @@ export const Header: React.FC<HeaderProps> = (): JSX.Element => {
               Contact
             </a>
             <PopupButton
-              url="https://calendly.com/angela-bobic"
+              url="https://calendly.com/angela-bobic/30min"
               rootElement={document.getElementById("root") as HTMLElement}
               text="Let's Talk"
               className="btn shadow-btn header-btn"

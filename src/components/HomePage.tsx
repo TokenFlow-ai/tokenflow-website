@@ -9,10 +9,7 @@ import { TheTeam } from "./TheTeam";
 import { Partners } from "./Partners";
 import { Chains } from "./Chains";
 import { FAQs } from "./FAQs";
-import avix from "../assets/clients/avix.png";
 import majr from "../assets/clients/MAJR.png";
-import longterm from "../assets/clients/longterm.png";
-import scaleroad from "../assets/clients/scaleroad.png";
 import clc from "../assets/clients/clc.png";
 import moonfarm from "../assets/clients/moonfarm.png";
 import scarcecoin from "../assets/clients/scarcecoin.png";
@@ -21,12 +18,11 @@ import nftmintr from "../assets/clients/nftmintr.png";
 import solidswap from "../assets/clients/solidswap.png";
 import multisignr from "../assets/clients/multisignr.png";
 import web3StarterPack from "../assets/clients/web3-starter-pack.png";
+import swagaBears from "../assets/clients/swaga_bears.png";
+import stealthDefiProject from "../assets/clients/stealth_defi_project.png";
 
 const clients = [
-  { name: "Avix Finance", logo: avix, height: 66.67, width: 66.67 },
-  { name: "LongTerm Finance", logo: longterm, height: 66.67, width: 66.67 },
-  { name: "MAJR", logo: majr, height: 66.67, width: 130 },
-  { name: "ScaleRoad", logo: scaleroad, height: 66.67, width: 76.67 },
+  { name: "MAJR DAO", logo: majr, height: 66.67, width: 130 },
   { name: "Cool Lions Club", logo: clc, height: 66.67 },
   { name: "DVenture DAO", logo: dventure, height: 66.67, width: 133.33 },
   { name: "NFT Mintr", logo: nftmintr, height: 66.67, width: 133.33 },
@@ -35,23 +31,14 @@ const clients = [
   { name: "MoonFarm", logo: moonfarm, height: 66.67, width: 66.67 },
   { name: "MultiSignr", logo: multisignr, height: 66.67 },
   { name: "Web3 Starter Pack", logo: web3StarterPack, height: 66.67 },
-  // { name: "ZK Something", logo: clc, height: 66.67 },
-  // { name: "Cross Chain Something", logo: clc, height: 66.67 },
-  // { name: "Layer 3 Something", logo: clc, height: 66.67 },
+  { name: "Swaga Bears", logo: swagaBears, height: 66.67 },
 ];
 
 const testimonials = [
   {
-    logoURL: avix,
-    projectName: "Avix Finance",
-    text: "TokenFlow nailed it! Avix's on-chain VIX tracking is a seamless perfection. Only they were able to understand our needs and deliver the solution we wanted.",
-    height: 80,
-    width: 80,
-  },
-  {
-    logoURL: longterm,
-    projectName: "LongTerm Finance",
-    text: "TokenFlow's mastery in DeFi integrations made ALTS a game-changer for crypto diversification. It's truly a dream come true for long-term focused investors in the altcoin space!",
+    logoURL: swagaBears,
+    projectName: "Swaga Bears",
+    text: "TokenFlow nailed it! Swaga Bears' migration from Solana to Ethereum is a seamless perfection. Only they were able to understand our needs and deliver the solution we wanted.",
     height: 80,
     width: 80,
   },
@@ -63,21 +50,20 @@ const testimonials = [
     width: 120,
   },
   {
-    logoURL: scaleroad,
-    projectName: "ScaleRoad LLC",
-    text: "TokenFlow fortified ScaleRoad with secure blockchain integrations, and created a framework for us to experiment with the asset tokenization and other enterprise solutions.",
-    height: 80,
-    width: 80,
-  },
-  {
     logoURL: clc,
     projectName: "Cool Lions Club",
     text: "With TokenFlow, our Cool Lions Club NFT collections's mint went flawlessly. They enabled us to truly put the focus on our community, and not worry about the technical details!",
     height: 80,
     width: 80,
   },
+  {
+    logoURL: stealthDefiProject,
+    projectName: "Stealth DeFi Project",
+    text: "TokenFlow fortified our blockchain integrations, and created a framework for us to experiment with the asset tokenization and other enterprise solutions in a compliant manner.",
+    height: 80,
+    width: 80,
+  },
 ];
-
 
 type HomePageProps = {
   children?: React.ReactNode;

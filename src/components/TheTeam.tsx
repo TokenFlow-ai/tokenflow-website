@@ -43,14 +43,6 @@ export const TheTeam: React.FC<TheTeamProps> = (): JSX.Element => {
               >
                 <LinkedInIcon style={{ color: "#0177B7", fontSize: "2em" }} />
               </a>
-              <a
-                className="team-member-social"
-                href="https://github.com/mihailo-maksa"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <GithubIcon style={{ color: "#181515", fontSize: "2em" }} />
-              </a>
             </div>
             <div className="team-member-description">
               Mihailo is a highly skilled smart contract engineer with over 4
@@ -60,8 +52,8 @@ export const TheTeam: React.FC<TheTeamProps> = (): JSX.Element => {
               <br /> <br />
               He is responsible for managing the delivery of work to our clients
               in a timely manner, and has a proven track record of delivering
-              secure contracts that have been audited and approved by reputable
-              security firms.
+              secure smart contracts that have been audited and approved by
+              reputable security firms.
             </div>
           </div>
         </div>

@@ -24,6 +24,7 @@ import dfx from "../assets/partners/dfx.jpeg";
 import chainstack from "../assets/partners/chainstack.png";
 import metaKeep from "../assets/partners/meta_keep.jpeg";
 import nalikesStudio from "../assets/partners/nalikes_studio.png";
+import life3 from "../assets/partners/life3.png";
 
 type PartnersProps = {
   children?: React.ReactNode;
@@ -174,12 +175,22 @@ export const Partners: React.FC<PartnersProps> = (): JSX.Element => {
           height={100}
         />
         <Partner
+          name="Life3"
+          imageURL={life3}
+          targetURL="https://life3.io"
+          width={100}
+          height={100}
+          style={{
+            borderRadius: "3%",
+          }}
+        />
+        {/* <Partner
           name="Moonstruck"
           imageURL={moonstruck}
           targetURL="https://moonstruck.io"
           width={160}
           height={100}
-        />
+        /> */}
         {/* <Partner
           name="MetaKeep"
           imageURL={metaKeep}

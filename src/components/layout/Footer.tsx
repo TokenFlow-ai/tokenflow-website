@@ -115,7 +115,7 @@ export const Footer: React.FC<FooterProps> = (): JSX.Element => {
             </a>
           </span>
           <PopupButton
-            url="https://calendly.com/angela-bobic"
+            url="https://calendly.com/angela-bobic/30min"
             rootElement={document.getElementById("root") as HTMLElement}
             text="Let's Talk"
             className="btn shadow-btn schedule-a-call-button"

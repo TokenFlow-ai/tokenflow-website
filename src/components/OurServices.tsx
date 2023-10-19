@@ -138,16 +138,18 @@ export const OurServices: React.FC<OurServicesProps> = (): JSX.Element => {
           <div className="pricing-card pricing-card-2">
             <img
               src={custom}
-              alt="Custom Smart Contract Development"
+              alt="Custom Dapp Development"
               className="pricing-card-image"
             />
 
-            <h2 className="pricing-plan-title">
-              Custom Smart Contract Development
-            </h2>
+            <h2 className="pricing-plan-title">Custom Dapp Development</h2>
 
             <div className="plan-features">
               <p className="plan-feature">
+                <p className="plan-feature">
+                  <span className="pricing-tick">✔</span> From idea to MVP,
+                  custom-made Dapps optimized for both security and scale
+                </p>
                 <span className="pricing-tick">✔</span> 80+ types of{" "}
                 <a
                   href="/contract_types.pdf"
@@ -172,11 +174,6 @@ export const OurServices: React.FC<OurServicesProps> = (): JSX.Element => {
                   120+ chains
                 </a>{" "}
                 supported by TokenFlow
-              </p>
-              <p className="plan-feature">
-                <span className="pricing-tick">✔</span> Our contracts are
-                optimized for both security and gas efficiency, and are built to
-                scale
               </p>
             </div>
           </div>
