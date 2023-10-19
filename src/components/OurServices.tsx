@@ -187,22 +187,19 @@ export const OurServices: React.FC<OurServicesProps> = (): JSX.Element => {
         <div className="intro-features">
           <div className="intro-features-subcontainer">
             <p className="intro-feature">
-              <span className="pricing-tick">✔</span> 100% test coverage
-            </p>
-            <p className="intro-feature">
-              <span className="pricing-tick">✔</span> Full contract
-              documentation
+              <span className="pricing-tick">✔</span> 100% test coverage & full
+              project documentation
             </p>
             <p className="intro-feature">
               <span className="pricing-tick">✔</span> Testnet & mainnet
               deployment
             </p>
-          </div>
-          <div className="intro-features-subcontainer">
             <p className="intro-feature">
               <span className="pricing-tick">✔</span> 24/7 email & Telegram
               support
             </p>
+          </div>
+          <div className="intro-features-subcontainer">
             <p className="intro-feature">
               <span className="pricing-tick">✔</span> Weekly updates on the
               project progress
@@ -210,6 +207,17 @@ export const OurServices: React.FC<OurServicesProps> = (): JSX.Element => {
             <p className="intro-feature">
               <span className="pricing-tick">✔</span> Free code revision in case
               of any issues
+            </p>
+            <p className="intro-feature">
+              <span className="pricing-tick">✔</span> World-class{" "}
+              <a
+                className="faq-link"
+                href="https://calendly.com/angela-bobic/30min"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                blockchain consulting services
+              </a>
             </p>
           </div>
         </div>
