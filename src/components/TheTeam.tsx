@@ -3,6 +3,7 @@ import "./theTeam.scss";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GithubIcon from "@material-ui/icons/GitHub";
+import LanguageIcon from "@material-ui/icons/Language";
 import mihailo from "../assets/mihailo_small_white_bg.png";
 import andela from "../assets/andela_small.png";
 
@@ -24,7 +25,7 @@ export const TheTeam: React.FC<TheTeamProps> = (): JSX.Element => {
           <div className="team-member-info">
             <h3 className="team-member-name">Mihailo Maksa</h3>
             <p className="team-member-position text-muted">
-              Lead Smart Contract Engineer
+              Senior Smart Contract Engineer
             </p>
             <div className="team-member-socials">
               <a
@@ -42,6 +43,22 @@ export const TheTeam: React.FC<TheTeamProps> = (): JSX.Element => {
                 rel="noopener noreferrer"
               >
                 <LinkedInIcon style={{ color: "#0177B7", fontSize: "2em" }} />
+              </a>
+              <a
+                className="team-member-social"
+                href="https://github.com/mihailo-maksa"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <GithubIcon style={{ color: "#000", fontSize: "2em" }} />
+              </a>
+              <a
+                className="team-member-social"
+                href="https://mihailomaksa.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <LanguageIcon style={{ color: "#333", fontSize: "2.18em" }} />
               </a>
             </div>
             <div className="team-member-description">
