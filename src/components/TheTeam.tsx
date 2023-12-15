@@ -64,12 +64,10 @@ export const TheTeam: React.FC<TheTeamProps> = (): JSX.Element => {
             <div className="team-member-description">
               Mihailo is a highly skilled smart contract engineer with over 4
               years of experience in the development of DeFi protocols,
-              cross-chain bridges, NFTs, DAOs, layer 2 scaling solutions, and
-              various different dApps.
+              cross-chain bridges, NFTs, DAOs, and more.
               <br /> <br />
-              He is responsible for managing the delivery of work to our clients
-              in a timely manner, and has a proven track record of delivering
-              secure smart contracts that have been audited and approved by
+              He efficiently manages client work delivery and has a strong
+              record of providing secure, audited smart contracts approved by
               reputable security firms.
             </div>
           </div>
@@ -80,7 +78,7 @@ export const TheTeam: React.FC<TheTeamProps> = (): JSX.Element => {
           <div className="team-member-info">
             <h3 className="team-member-name">Angela Bobic</h3>
             <p className="team-member-position text-muted">
-              Head of Business Development
+              Head of Business Operations
             </p>
             <div className="team-member-socials">
               <a
@@ -101,14 +99,13 @@ export const TheTeam: React.FC<TheTeamProps> = (): JSX.Element => {
               </a>
             </div>
             <div className="team-member-description">
-              Angela's extensive experience in crypto startup scene and
-              strategic vision have enabled her to identify new business
-              opportunities and develop innovative solutions to meet the needs
-              of clients.
+              Angela's extensive background in the crypto startup scene and
+              strategic vision empower her to identify novel business prospects
+              and craft innovative solutions.
               <br /> <br />
-              With her strong leadership skills and dedication to excellence,
-              she plays a pivotal role in driving the growth and expansion of
-              the company's client base. <strong>#Women in Blockchain</strong>
+              Her robust leadership skills and operational excellence play a
+              pivotal role in propelling the company toward growth and success.
+              #WomeninBlockchain
             </div>
           </div>
         </div>
