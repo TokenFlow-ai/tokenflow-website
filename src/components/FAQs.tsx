@@ -227,7 +227,7 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
             provide a better estimate of the development time. You can{" "}
             <a
               className="faq-link"
-              href="https://calendly.com/angela-bobic/30min"
+              href="https://calendly.com/tokenflow-ai/30min"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -332,7 +332,7 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
             a call with us{" "}
             <a
               className="faq-link"
-              href="https://calendly.com/angela-bobic/30min"
+              href="https://calendly.com/tokenflow-ai/30min"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -356,7 +356,7 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
             feel free to schedule a call with us{" "}
             <a
               className="faq-link"
-              href="https://calendly.com/angela-bobic"
+              href="https://calendly.com/tokenflow-ai/30min"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -373,11 +373,11 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
             You can always contact us directly via email at{" "}
             <a
               className="faq-link"
-              href="mailto:office@tokenflow.ai"
+              href="mailto:tokenflow@proton.me"
               rel="noopener noreferrer"
               target="_blank"
             >
-              office@tokenflow.ai
+              tokenflow@proton.me
             </a>{" "}
             or{" "}
             <a
@@ -391,7 +391,7 @@ export const FAQs: React.FC<FAQsProps> = (): JSX.Element => {
             , and also by scheduling a 30-minute free consultation call with us{" "}
             <a
               className="faq-link"
-              href="https://calendly.com/angela-bobic/30min"
+              href="https://calendly.com/tokenflow-ai/30min"
               rel="noopener noreferrer"
               target="_blank"
             >

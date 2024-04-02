@@ -3,7 +3,7 @@ import "./footer.scss";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import LinkedInIcon from "../../assets/linkedin_icon.svg";
 import TelegramIcon from "@material-ui/icons/Telegram";
-// import YouTubeIcon from "@material-ui/icons/YouTube";
+import YouTubeIcon from "../../assets/youtube_icon.svg";
 import GithubIcon from "@material-ui/icons/GitHub";
 import EmailIcon from "@material-ui/icons/Email";
 import { getYear } from "../../utils/utils";
@@ -60,10 +60,10 @@ export const Footer: React.FC<FooterProps> = (): JSX.Element => {
                 }}
               />
             </a>
-            {/* <a
+            <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://youtube.com/channel/UClpnVlob8iQKsdg_Ih3HWFA"
+              href="https://youtube.com/@tokenflow"
               className="social-link"
             >
               <img
@@ -74,7 +74,7 @@ export const Footer: React.FC<FooterProps> = (): JSX.Element => {
                   height: "40px",
                 }}
               />
-            </a> */}
+            </a>
             <a
               className="social-link"
               href="https://github.com/TokenFlow-ai"
@@ -108,14 +108,14 @@ export const Footer: React.FC<FooterProps> = (): JSX.Element => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="mailto:office@tokenflow.ai"
+              href="mailto:tokenflow@proton.me"
               className="social-link"
             >
               <EmailIcon style={{ color: "#fff", fontSize: "2em" }} />
             </a>
           </span>
           <PopupButton
-            url="https://calendly.com/angela-bobic/30min"
+            url="https://calendly.com/tokenflow-ai/30min"
             rootElement={document.getElementById("root") as HTMLElement}
             text="Let's Talk"
             className="btn shadow-btn schedule-a-call-button"

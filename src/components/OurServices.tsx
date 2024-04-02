@@ -212,7 +212,7 @@ export const OurServices: React.FC<OurServicesProps> = (): JSX.Element => {
               <span className="pricing-tick">✔</span> World-class{" "}
               <a
                 className="faq-link"
-                href="https://calendly.com/angela-bobic/30min"
+                href="https://calendly.com/tokenflow-ai/30min"
                 rel="noopener noreferrer"
                 target="_blank"
               >

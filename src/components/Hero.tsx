@@ -26,7 +26,7 @@ export const Hero: React.FC<HeroProps> = (): JSX.Element => {
 
         <div className="intro-buttons">
           <PopupButton
-            url="https://calendly.com/angela-bobic/30min"
+            url="https://calendly.com/tokenflow-ai/30min"
             rootElement={document.getElementById("root") as HTMLElement}
             text="Let's Talk"
             className="btn shadow-btn mr-5 hero-btn"

@@ -68,7 +68,7 @@ export const Header: React.FC<HeaderProps> = (): JSX.Element => {
             FAQs
           </a>
           <a
-            href="mailto:office@tokenflow.ai"
+            href="mailto:tokenflow@proton.me"
             rel="noopener noreferrer"
             target="_blank"
             className="nav-link"
@@ -87,7 +87,7 @@ export const Header: React.FC<HeaderProps> = (): JSX.Element => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://calendly.com/angela-bobic/30min"
+              href="https://calendly.com/tokenflow-ai/30min"
               className="btn-link bold header-btn text-center bold"
               style={{ fontWeight: "bold", textAlign: "center", margin: "0" }}
             >
@@ -159,7 +159,7 @@ export const Header: React.FC<HeaderProps> = (): JSX.Element => {
               FAQs
             </a>
             <a
-              href="mailto:office@tokenflow.ai"
+              href="mailto:tokenflow@proton.me"
               rel="noopener noreferrer"
               target="_blank"
               className="nav-link"
@@ -171,7 +171,7 @@ export const Header: React.FC<HeaderProps> = (): JSX.Element => {
               Contact
             </a>
             <PopupButton
-              url="https://calendly.com/angela-bobic/30min"
+              url="https://calendly.com/tokenflow-ai/30min"
               rootElement={document.getElementById("root") as HTMLElement}
               text="Let's Talk"
               className="btn shadow-btn header-btn"

@@ -105,7 +105,7 @@ export const TheTeam: React.FC<TheTeamProps> = (): JSX.Element => {
               <br /> <br />
               Her robust leadership skills and operational excellence play a
               pivotal role in propelling the company toward growth and success.
-              #WomeninBlockchain
+              #WomenInBlockchain
             </div>
           </div>
         </div>
